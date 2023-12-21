@@ -1,0 +1,555 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1703173374
+DiagramBase.gd::GDScript::-1::1700191491::0::1::::DiagramBase<>Panel<>::
+DrawingMatrix.gd::GDScript::-1::1700191491::0::1::::DrawingMatrix<>ConnectionMatrix<>::
+export_presets.cfg::TextFile::-1::1703173268::0::1::::<><>::
+icon.png::CompressedTexture2D::3717341522340970178::1664204592::1703173349::1::::<><>::
+ParticleData.gd::GDScript::-1::1702295108::0::1::::<>Node<>::
+problem.gd::GDScript::-1::1702295139::0::1::::Problem<>Resource<>::
+ProblemSet.gd::GDScript::-1::1699840336::0::1::::ProblemSet<>Resource<>::
+::res://Resources/::1698692598
+::res://Resources/Audio/::1703173349
+drawer_closing.mp3::AudioStreamMP3::6589269605611541161::1693226686::1703173349::1::::<><>::
+drawer_opening.mp3::AudioStreamMP3::1161668563194304067::1693226686::1703173349::1::::<><>::
+Scissors-Clipping-opening-and-closing-3-www.FesliyanStudios.com.mp3::AudioStreamMP3::6675522860922073229::1693226686::1703173349::1::::<><>::
+switch27.ogg::AudioStreamOggVorbis::7727402588648899282::1509150950::1703173349::1::::<><>::
+switch28.ogg::AudioStreamOggVorbis::8578095747014617096::1509150950::1703173349::1::::<><>::
+::res://Resources/ButtonGroups/::1698688690
+palette.tres::ButtonGroup::8292148860898992632::1690244675::0::1::::<><>::
+::res://Resources/Palettes/::1703173349
+default_palette.png::CompressedTexture2D::1239226283329507452::1698688628::1703173349::1::::<><>::
+::res://Resources/Shaders/::1703173366
+interaction_shader.gdshader::Shader::-1::1703016028::0::1::::<><>::
+outline0.tres::ShaderMaterial::579203502244886106::1702947766::0::1::::<><>::res://Resources/Shaders/outline.gdshader
+outline.gdshader::Shader::-1::1703016028::0::1::::<><>::
+palette_swap.gdshader::Shader::-1::1703173366::0::1::::<><>::
+palette_swap_material.tres::ShaderMaterial::4768369442354854650::1703172757::0::1::::<><>::res://Resources/Shaders/palette_swap.gdshader
+particle_line.gdshader::Shader::-1::1703173336::0::1::::<><>::
+::res://Resources/Themes/::1703172757
+ActivePressed.tres::StyleBoxTexture::8441159048871470945::1696408401::0::1::::<><>::uid://cea5mj3u65016::::res://Textures/Buttons/square_pressed_active.png
+Info.tres::Theme::7745264100989432481::1698694642::0::1::::<><>::uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf
+mini_diagram.tres::Theme::5936104888190306650::1703172757::0::1::::<><>::uid://bnokrsnuhk2qo::::res://Textures/UI/MiniDiagram/Outline.png
+ProjectTheme.tres::Theme::5148632097721798888::1703172757::0::1::::<><>::uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://bcwpdy0lmenue::::res://Textures/Buttons/square_disabled.png<>uid://bo1u07jlygktr::::res://Textures/Buttons/square_hover.png<>uid://s14bo7fcdam0::::res://Textures/Buttons/square_normal.png<>uid://brb0ytbpqclrn::::res://Textures/Buttons/square_pressed.png<>uid://cs50mifpalsrn::::res://Textures/Buttons/CheckButton/checked.png<>uid://cdfgpqy1srg8j::::res://Textures/Buttons/CheckButton/unchecked.png<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://dvu7f5h7snggp::::res://Scenes and Scripts/UI/Menus/panelContainer.tres<>uid://d3yddpra1btvh::::res://Textures/UI/Information/sliderH/grabber.png<>uid://dne44tp1it1xy::::res://Textures/UI/Information/sliderH/grabber_highlighted.png<>uid://dtkr82iuj8ovy::::res://Textures/Fonts/munro-font/Munro-2LYe.ttf<>uid://c2m85qf18ix63::::res://Textures/UI/radio_checked.png<>uid://30oe2l4k7py3::::res://Textures/UI/Information/sliderH/tick.png<>uid://dfh2bwspbmrs3::::res://Textures/UI/Information/sliderH/slider.png<>uid://bvfpoc03mh2yo::::res://Textures/UI/radio_unchecked.png<>uid://bcf2qslps6l4s::::res://Textures/UI/Equation/scroll_grabber_normal_v.png<>uid://cgghpligriwhd::::res://Textures/UI/Equation/scroll_grabber_highlight_v.png<>uid://c8iesbop3uqwa::::res://Textures/Buttons/up_down.png<>uid://f76yp8golmnh::::res://Textures/UI/Equation/scroll_grabber_pressed_v.png<>uid://c0muhs2tnd6ew::::res://Textures/UI/Equation/scrollbar_v.png<>uid://cea5mj3u65016::::res://Textures/Buttons/square_pressed_active.png
+TitleLabel.tres::StyleBoxTexture::3793045094192432082::1695899683::0::1::::<><>::uid://b4w0nb2kv1et0::::res://Textures/UI/Information/InfoTabFocus.png
+toggle_button.tres::Theme::7033992188639633356::1703172757::0::1::::<><>::uid://s14bo7fcdam0::::res://Textures/Buttons/square_normal.png<>uid://bo1u07jlygktr::::res://Textures/Buttons/square_hover.png<>uid://cea5mj3u65016::::res://Textures/Buttons/square_pressed_active.png
+::res://saves/::1698496786
+::res://saves/Diagrams/::1698685850
+hadrons.txt::TextFile::-1::1698685811::0::1::::<><>::
+interactions.txt::TextFile::-1::1698685823::0::1::::<><>::
+invalid_interactions.txt::TextFile::-1::1698685834::0::1::::<><>::
+temp_diagram.txt::TextFile::-1::1698685850::0::1::::<><>::
+title_diagram.tres::Resource/Resource::3078541193754991003::1696408401::0::1::::<><>::res://DrawingMatrix.gd
+::res://saves/Palettes/::1699741284
+teastain.tres::Resource/Resource::613517796188994069::1696528567::0::1::::<><>::res://Scenes and Scripts/Classes/PaletteClass.gd
+::res://saves/Palettes/Custom/::1701970615
+::res://saves/Palettes/Default/::1702947766
+GameBoy.tres::Resource/Resource::1026918130492980810::1699640162::0::1::::<><>::res://Scenes and Scripts/Classes/PaletteClass.gd
+Halloween.tres::Resource/Resource::2112715931504510498::1699714464::0::1::::<><>::res://Scenes and Scripts/Classes/PaletteClass.gd
+Mushroom.tres::Resource/Resource::5480023099120637341::1702947766::0::1::::<><>::res://Scenes and Scripts/Classes/PaletteClass.gd
+::res://saves/Palettes/Seasonal/::1699829430
+christmas.txt::TextFile::-1::1703543580::0::1::::<><>::
+exam.txt::TextFile::-1::1699741640::0::1::::<><>::
+halloween.txt::TextFile::-1::1699640132::0::1::::<><>::
+valentine.txt::TextFile::-1::1699741080::0::1::::<><>::
+winter.txt::TextFile::-1::1702420335::0::1::::<><>::
+::res://saves/Palettes/temp/::1696529384
+::res://saves/ProblemSets/::1699840427
+tutorial.txt::TextFile::-1::1699840427::0::1::::<><>::
+::res://saves/ProblemSets/Custom/::1702294014
+::res://saves/ProblemSets/Default/::1702295852
+electromagnetic.txt::TextFile::-1::1701275496::0::1::::<><>::
+hadronic.txt::TextFile::-1::1702295852::0::1::::<><>::
+strong.txt::TextFile::-1::1701275496::0::1::::<><>::
+::res://Scenes and Scripts/::1703172758
+event_bus.gd::GDScript::-1::1700191491::0::1::::<>Node<>::
+event_bus.tscn::PackedScene::4072268104443296034::1697552424::0::1::::<><>::res://Scenes and Scripts/event_bus.gd
+fps.gd::GDScript::-1::1699547070::0::1::::<>Label<>::
+GLOBALS.gd::GDScript::-1::1701528654::0::1::::<>Node<>::
+GLOBALS.tscn::PackedScene::7420527405447718051::1701970534::0::1::::<><>::res://Scenes and Scripts/GLOBALS.gd
+KofiButton.tscn::PackedScene::2932756678273424328::1701970533::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres
+sound_bus.tscn::PackedScene::8054602114041251931::1698688526::0::1::::<><>::res://Scenes and Scripts/Levels/SoundBus.gd<>uid://c2dw5epyyu3yn::::res://Resources/Audio/Scissors-Clipping-opening-and-closing-3-www.FesliyanStudios.com.mp3<>uid://qsyrnksplr1d::::res://Resources/Audio/drawer_opening.mp3<>uid://duhj8peqer73i::::res://Resources/Audio/switch28.ogg<>uid://c045kpx3x2jdx::::res://Resources/Audio/drawer_closing.mp3<>uid://didhgrsrk4wj7::::res://Resources/Audio/switch27.ogg
+universe.gd::GDScript::-1::1701525928::0::1::::<>Node2D<>::
+universe.tscn::PackedScene::5691400079105749138::1703172758::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/universe.gd<>uid://blu0n6lwfysjf::::res://Scenes and Scripts/UI/Menus/MainMenu/main_menu.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://c7n4o6dbkwilh::::res://Scenes and Scripts/Levels/world.tscn<>uid://b5pj0lanxu0o6::::res://Scenes and Scripts/UI/ColourPicker/palette_list.tscn<>uid://b65u1c7v5mbh6::::res://Scenes and Scripts/UI/Menus/controls_tab.tscn<>uid://cv3ttwhplgav::::res://Scenes and Scripts/States/state_manager.tscn<>uid://brd5auomhnn6l::::res://Scenes and Scripts/UI/Cursor.tscn<>uid://btjrj2wemfwjq::::res://Textures/Buttons/move_touch_button_normal.png<>uid://db6rdb3r8el1a::::res://Textures/Buttons/move_touch_button_pressed.png<>uid://dbbrv15cfsttg::::res://Textures/Buttons/cut_touch_button_normal.png<>uid://n2w0tydjaa33::::res://Textures/Buttons/cut_touch_button_pressed.png<>res://Scenes and Scripts/fps.gd
+::res://Scenes and Scripts/Algorithms/::1701970534
+ProblemGeneration.gd::GDScript::-1::1699895523::0::1::::<>Node<>::
+problem_generation.tscn::PackedScene::3715125632734194807::1701970533::0::1::::<><>::res://Scenes and Scripts/Algorithms/ProblemGeneration.gd
+SolutionGeneration.gd::GDScript::-1::1700191491::0::1::::<>Node<>::
+SolutionGeneration.tscn::PackedScene::953759237673986697::1701970534::0::1::::<><>::res://Scenes and Scripts/Algorithms/SolutionGeneration.gd
+Vision.gd::GDScript::-1::1700191491::0::1::::<>Node<>::
+Vision.tscn::PackedScene::4106494761950239858::1701970534::0::1::::<><>::res://Scenes and Scripts/Algorithms/Vision.gd
+::res://Scenes and Scripts/Classes/::1699640132
+line_edit.gd::GDScript::-1::1698689928::0::1::::<>LineEdit<>::
+List.gd::GDScript::-1::1698689467::0::1::::List<>PanelContainer<>::
+ListItem.gd::GDScript::-1::1698689467::0::1::::ListItem<>PanelContainer<>::
+PaletteClass.gd::GDScript::-1::1699640132::0::1::::Palette<>Resource<>::
+spin_box.gd::GDScript::-1::1697202840::0::1::::<>SpinBox<>::
+text_edit.gd::GDScript::-1::1696408401::0::1::::<>TextEdit<>::
+::res://Scenes and Scripts/Components/::1698511164
+ButtonSoundComponent.gd::GDScript::-1::1698511164::0::1::::<>Node<>::
+button_sound_component.tscn::PackedScene::8178387190380252188::1698500924::0::1::::<><>::res://Scenes and Scripts/Components/ButtonSoundComponent.gd
+::res://Scenes and Scripts/Diagram/::1703173336
+ConnectionMatrix.gd::GDScript::-1::1700191491::0::1::::ConnectionMatrix<>Resource<>::
+diagram_actions.gd::GDScript::-1::1701529048::0::1::::MainDiagram<>DiagramBase<>::
+GrabbableControl.gd::GDScript::-1::1698686819::0::1::::GrabbableControl<>Control<>::
+GrabbableNode2D.gd::GDScript::-1::1700191491::0::1::::GrabbableNode2D<>Node2D<>::
+interaction.gd::GDScript::-1::1700191491::0::1::::Interaction<>GrabbableNode2D<>::
+interaction.tscn::PackedScene::2896060361601010017::1701970534::0::1::::<><>::uid://dujsq82ocy6bp::::res://Textures/Interactions/Interaction.png<>res://Resources/Shaders/interaction_shader.gdshader<>res://Scenes and Scripts/Diagram/interaction.gd<>uid://dn576br5tkdbc::::res://Textures/Interactions/interaction_invalid.png<>res://Resources/Shaders/palette_swap.gdshader<>uid://cb746tuycm36s::::res://Textures/Interactions/dot.png<>uid://cj4e63vquy3u6::::res://Textures/Interactions/interaction_background.png<>res://Scenes and Scripts/Diagram/outline_palette_swap.gdshader<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn
+interaction_matrix.gd::GDScript::-1::1699715977::0::1::::InteractionMatrix<>ConnectionMatrix<>::
+line.gd::GDScript::-1::1702293964::0::1::::ParticleLine<>Node2D<>::
+line.tscn::PackedScene::4338087936931625152::1703172964::0::1::::<><>::res://Scenes and Scripts/Diagram/line.gd<>res://Resources/Shaders/particle_line.gdshader<>uid://b8glr5vnlacpl::::res://Textures/ParticlesAndLines/gluon_end.png<>uid://c1joju14fxw1n::::res://Textures/ParticlesAndLines/Particle.png<>res://Scenes and Scripts/Diagram/outline_palette_swap.gdshader<>uid://dya0nescxtd67::::res://Textures/ParticlesAndLines/arrow.png
+outline_palette_swap.gdshader::Shader::-1::1703173336::0::1::::<><>::
+StateLine.gd::GDScript::-1::1697898013::0::1::::StateLine<>GrabbableControl<>::
+StateLine.tscn::PackedScene::1066014650004037169::1698080776::0::1::::<><>::res://Resources/Shaders/palette_swap.gdshader<>res://Scenes and Scripts/Diagram/StateLine.gd<>uid://ck7f7rh13bebq::::res://Textures/Background/state_line_top.png<>uid://b27ksgsygiqmd::::res://Textures/Background/state_line_tile.png<>uid://cuwph3lsysfx8::::res://Textures/Background/stateline_grab_area.png
+vision_line.gd::GDScript::-1::1698689746::0::1::::<>Line2D<>::
+vision_line.tscn::PackedScene::5033004737516263687::1698689497::0::1::::<><>::uid://ksgt2c2j71ou::::res://Textures/ParticlesAndLines/Lines/vision_line.png<>res://Scenes and Scripts/Diagram/vision_line.gd
+vision_line_arrow.tscn::PackedScene::4647949147270528886::1698691596::0::1::::<><>::uid://qhnu3h8laq6l::::res://Textures/colour_arrow.png
+::res://Scenes and Scripts/Diagram/Hadrons/::1698689467
+hadron.gd::GDScript::-1::1697897666::0::1::::Hadron<>Node2D<>::
+hadron.tscn::PackedScene::3786407243670482454::1698689467::0::1::::<><>::uid://iitnraau4c6m::::res://Resources/Shaders/outline0.tres<>res://Scenes and Scripts/Diagram/Hadrons/hadron.gd
+HadronJoint.gd::GDScript::-1::1697898054::0::1::::HadronJoint<>Node2D<>::
+HadronJoint.tscn::PackedScene::106005693582058353::1698689352::0::1::::<><>::res://Scenes and Scripts/Diagram/Hadrons/HadronJoint.gd<>uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://h04qdshikjc6::::res://Textures/joint.png
+::res://Scenes and Scripts/Levels/::1702947777
+Diagram.gd::GDScript::-1::1698163109::0::1::::<>BaseTutorialStep<>::
+Hadrons.gd::GDScript::-1::1698690609::0::1::::<>BaseTutorialStep<>::
+SoundBus.gd::GDScript::-1::1698688428::0::1::::<>Node<>::
+Title.gd::GDScript::-1::1696967808::0::1::::<>LineEdit<>::
+Tutorial.gd::GDScript::-1::1701260251::0::1::::<>Node2D<>::
+World.gd::GDScript::-1::1701260547::0::1::::<>Node2D<>::
+world.tscn::PackedScene::7047508701428852301::1702947777::0::1::::<><>::res://Scenes and Scripts/Levels/World.gd<>res://Resources/Shaders/palette_swap.gdshader<>res://Scenes and Scripts/UI/ShaderControl.gd<>uid://besym8haj5qo4::::res://Scenes and Scripts/UI/Crosshair.tscn<>uid://dvmhtrrnuhqrj::::res://Textures/UI/grid_outline.png<>uid://cv6hlxtiukmtc::::res://Scenes and Scripts/UI/VisionButtons/vision_buttons.tscn<>uid://pgnduadnvgfx::::res://Scenes and Scripts/Diagram/StateLine.tscn<>uid://c2myqhjupqo25::::res://Textures/Background/tile.png<>uid://bhi4xq3qdbt4d::::res://Scenes and Scripts/Diagram/interaction.tscn<>uid://b22nw60juoc6k::::res://Scenes and Scripts/Diagram/line.tscn<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>uid://doyaei3vq3cbb::::res://Textures/Background/state_line_shadow_top.png<>res://Scenes and Scripts/Levels/Title.gd<>uid://basekc2ce6rmp::::res://Textures/Background/state_line_shadow_tile.png<>uid://byrhmsj4f7kxm::::res://Scenes and Scripts/Algorithms/Vision.tscn<>uid://bs6vtukhlou2r::::res://Scenes and Scripts/Algorithms/problem_generation.tscn<>res://Scenes and Scripts/Diagram/diagram_actions.gd<>uid://nuajmillcsir::::res://Scenes and Scripts/Algorithms/SolutionGeneration.tscn<>uid://bbkvwth6ke1is::::res://Scenes and Scripts/UI/Menus/problem_tab.tscn<>uid://bgvo11j4kfjdc::::res://Scenes and Scripts/UI/Menus/generation_button.tscn<>uid://bvc8sakoqg037::::res://Textures/Background/background_border.png<>uid://deuhqxgq1bveq::::res://Scenes and Scripts/UI/Menus/PuzzleUI.tscn<>uid://wgw4km4uc7fh::::res://Scenes and Scripts/UI/Menus/menu_tab.tscn<>uid://ds2iet11sv3ty::::res://Scenes and Scripts/UI/Buttons/particle_buttons.tscn<>uid://dcpcxfh7umytq::::res://Scenes and Scripts/UI/MiniDiagram/mini_diagram_viewer.tscn<>res://Scenes and Scripts/Levels/Tutorial.gd<>uid://bjmi5sukccoma::::res://Scenes and Scripts/tutorial/TutorialInfo.tscn<>uid://dxeg8j8rmil8t::::res://Scenes and Scripts/UI/Menus/health_tab.tscn<>uid://c5scpc4iadf17::::res://Scenes and Scripts/UI/ProblemSelection/creation_information.tscn<>res://Scenes and Scripts/Levels/Hadrons.gd<>res://Scenes and Scripts/tutorial/TutorialStep.gd
+::res://Scenes and Scripts/Modes/::1698692598
+BaseMode.gd::GDScript::-1::1698156695::0::1::::BaseMode<>Node<>::
+::res://Scenes and Scripts/States/::1701970534
+BaseState.gd::GDScript::-1::1698678408::0::1::::BaseState<>Node<>::
+deleting.gd::GDScript::-1::1699639991::0::1::::<>BaseState<>::
+drawing.gd::GDScript::-1::1699640132::0::1::::<>BaseState<>::
+hovering.gd::GDScript::-1::1700191491::0::1::::<>BaseState<>::
+idle.gd::GDScript::-1::1699553514::0::1::::<>BaseState<>::
+placing.gd::GDScript::-1::1700191491::0::1::::<>BaseState<>::
+state_manager.gd::GDScript::-1::1699554067::0::1::::<>Node<>::
+state_manager.tscn::PackedScene::185464658260856277::1701970534::0::1::::<><>::res://Scenes and Scripts/States/state_manager.gd<>res://Scenes and Scripts/States/idle.gd<>res://Scenes and Scripts/States/hovering.gd<>res://Scenes and Scripts/States/placing.gd<>res://Scenes and Scripts/States/deleting.gd<>res://Scenes and Scripts/States/drawing.gd
+::res://Scenes and Scripts/tutorial/::1701970533
+spotlight.gd::GDScript::-1::1698157559::0::1::::<>Panel<>::
+spotlight.tscn::PackedScene::1641673435502936377::1698688525::0::1::::<><>::uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>res://Scenes and Scripts/tutorial/spotlight.gd
+TutorialInfo.gd::GDScript::-1::1698678393::0::1::::<>GrabbableControl<>::
+TutorialInfo.tscn::PackedScene::3043433096016901440::1701970533::0::1::::<><>::res://Scenes and Scripts/tutorial/TutorialInfo.gd<>uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://c3nrennubqoow::::res://Textures/Buttons/icons/back.png<>uid://dvx430022t0ua::::res://Textures/Buttons/icons/next.png<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://qhabllbii547::::res://Textures/Buttons/icons/finish.png
+TutorialStep.gd::GDScript::-1::1701260336::0::1::::BaseTutorialStep<>Node<>::
+::res://Scenes and Scripts/UI/::1702947766
+Crosshair.gd::GDScript::-1::1702947766::0::1::::<>Node2D<>::
+Crosshair.tscn::PackedScene::2705815239268971257::1701970534::0::1::::<><>::res://Resources/Shaders/palette_swap.gdshader<>res://Scenes and Scripts/UI/Crosshair.gd<>uid://d35qxiccrmjj3::::res://Textures/UI/crosshair/crosshair.png
+Cursor.gd::GDScript::-1::1698684194::0::1::::<>Sprite2D<>::
+Cursor.tscn::PackedScene::3587646741234196021::1697552424::0::1::::<><>::uid://cijtfk2524cte::::res://Textures/Cursors/cursor_point.png<>res://Scenes and Scripts/UI/Cursor.gd<>uid://cane64owm0oof::::res://Textures/Cursors/heart.png
+LoadBox.gd::GDScript::-1::1696958375::0::1::::<>GrabbableControl<>::
+load_box.tscn::PackedScene::3142347718316228025::1701970533::0::1::::<><>::uid://cfmbhoq8cuoge::::res://Resources/Themes/ProjectTheme.tres<>res://Scenes and Scripts/UI/LoadBox.gd<>uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/Classes/text_edit.gd<>uid://dvu7f5h7snggp::::res://Scenes and Scripts/UI/Menus/panelContainer.tres<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://cvuwkc5eaq805::::res://Textures/Buttons/icons/copy.png<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://cg8lbpdjmqh84::::res://Textures/Buttons/icons/paste.png<>uid://blp8o56nt6djk::::res://Textures/Buttons/X_icon.png<>uid://bcu6ptkd3fwfe::::res://Textures/Buttons/icons/submit.png
+ShaderControl.gd::GDScript::-1::1695899683::0::1::::<>Node<>::
+Tooltip.gd::GDScript::-1::1698678393::0::1::::<>Node<>::
+Tooltip.tscn::PackedScene::6797974904830172334::1698688525::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Tooltip.gd<>uid://dbeck067rce7m::::res://Textures/UI/tooltip_panel.png<>uid://dohkbu7ekkfx8::::res://Textures/Fonts/pixeltype/Pixeltype.ttf
+::res://Scenes and Scripts/UI/Buttons/::1703172757
+load_button.gd::GDScript::-1::1697132958::0::1::::<>PanelButton<>::
+load_button.tscn::PackedScene::2267419922231263852::1698689864::0::1::::<><>::uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>res://Scenes and Scripts/UI/Buttons/load_button.gd<>uid://bfoxtqmre12qw::::res://Textures/Buttons/icons/load.png
+MuteButton.gd::GDScript::-1::1696408401::0::1::::<>PanelButton<>::
+MuteButton.tscn::PackedScene::4451285056379792758::1697468689::0::1::::<><>::uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://ueqdiuyv54f0::::res://Textures/Buttons/icons/mute.png<>uid://cea5mj3u65016::::res://Textures/Buttons/square_pressed_active.png<>res://Scenes and Scripts/UI/Buttons/MuteButton.gd
+palette_options.tscn::PackedScene::3921976128175077300::1698692598::0::1::::<><>::
+pallette_buttons.tscn::PackedScene::2506310154599386585::1698692598::0::1::::<><>::uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://cfmbhoq8cuoge::::res://Resources/Themes/ProjectTheme.tres<>res://Resources/Shaders/palette_swap.gdshader
+panelButton.gd::GDScript::-1::1699449357::0::1::::PanelButton<>PanelContainer<>::
+panelButton.tscn::PackedScene::6832526354239462884::1698694815::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Buttons/panelButton.gd
+particles.tres::ButtonGroup::6175615199340151512::1690392481::0::1::::<><>::
+particle_buttons.gd::GDScript::-1::1700151017::0::1::::<>Control<>::
+particle_buttons.tscn::PackedScene::8478893354356052374::1702947777::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Buttons/particle_buttons.gd<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://dtkr82iuj8ovy::::res://Textures/Fonts/munro-font/Munro-2LYe.ttf<>res://Scenes and Scripts/UI/Menus/PullOutTab.gd<>uid://diro6a1arcmc0::::res://Scenes and Scripts/UI/Buttons/ParticleButtons/ParticleButton.tscn<>uid://ctj2f7ofdkrr1::::res://Scenes and Scripts/UI/Buttons/pull_out_tab_button_up.tscn<>uid://bbcpi0csb1w4::::res://Textures/Buttons/icons/Particles/electron.png<>res://Resources/Shaders/palette_swap.gdshader<>uid://pkad4lple88f::::res://Textures/Buttons/icons/Particles/muon.png<>uid://dahehom80el0l::::res://Textures/Buttons/icons/Particles/tau.png<>uid://bmpdc76qeiktv::::res://Textures/Buttons/icons/Particles/electron_neutrino.png<>uid://c8dt0yi25ikvr::::res://Textures/Buttons/icons/Particles/muon_neutrino.png<>uid://djuy5p44a12di::::res://Textures/Buttons/icons/Particles/tau_neutrino.png<>uid://dibw2wrvs7yqv::::res://Textures/Buttons/icons/Particles/gluon.png<>uid://ba4s7btayo8o5::::res://Textures/Buttons/icons/Particles/W.png<>uid://bo2ht1pncufjh::::res://Textures/Buttons/icons/Particles/Z.png<>uid://2xby1xcpcbua::::res://Textures/Buttons/icons/Particles/H.png<>uid://c6mken3m1pn70::::res://Textures/Buttons/icons/Particles/up.png<>uid://b1v6dja587r1p::::res://Textures/Buttons/icons/Particles/charm.png<>uid://bqhdd536qbn0u::::res://Textures/Buttons/icons/Particles/top.png<>uid://dawr6hhu4cqu4::::res://Textures/Buttons/icons/Particles/down.png<>uid://dshm4k8uwjopv::::res://Textures/Buttons/icons/Particles/strange.png<>uid://dv4g6vsjrh8qx::::res://Textures/Buttons/icons/Particles/bottom.png<>uid://cteoawl428aql::::res://Textures/Buttons/icons/Particles/lepton.png<>uid://c131ijh0yekq2::::res://Textures/Buttons/icons/Particles/bright_quark.png<>uid://bmv8pnuf6tt5c::::res://Textures/Buttons/icons/Particles/lepton_neutrino.png<>uid://dowhqmddrlbp::::res://Textures/Buttons/icons/Particles/dark_quark.png
+pull_out_tab.tres::Theme::7191661110385444785::1703172757::0::1::::<><>::uid://bov3ra2ajt18n::::res://Textures/Buttons/Tabs/tab_right_highlight.png<>uid://bisjcpxojnb1c::::res://Textures/Buttons/Tabs/tab_right.png
+pull_out_tab_button.gd::GDScript::-1::1693484832::0::1::::<>MarginContainer<>::
+pull_out_tab_button_down.tscn::PackedScene::2367917755366366049::1698692598::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Buttons/pull_out_tab_button.gd<>uid://bw8jm82sn5nmq::::res://Textures/Buttons/Tabs/tab_down.png<>uid://drw6s2h3fn501::::res://Textures/Buttons/Tabs/arrow_up.png<>uid://djfkh4k2lcuyg::::res://Textures/Buttons/Tabs/tab_down_highlight.png<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://dwh7e30xi8v07::::res://Textures/Buttons/Tabs/arrow_down.png<>res://Resources/Shaders/palette_swap.gdshader
+pull_out_tab_button_left.tscn::PackedScene::7150615484861411517::1698694815::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Buttons/pull_out_tab_button.gd<>uid://bel25206djg12::::res://Textures/Buttons/Tabs/tab_left.png<>uid://dy6xu86edn7ny::::res://Textures/Buttons/Tabs/tab_left_highlight.png<>uid://bryamn5jwtk0u::::res://Textures/Buttons/Tabs/arrow_right.png<>uid://c3446mj2msohv::::res://Textures/Buttons/Tabs/arrow_left.png<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader
+pull_out_tab_button_right.tscn::PackedScene::3804322802106040243::1698694815::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Buttons/pull_out_tab_button.gd<>uid://bryamn5jwtk0u::::res://Textures/Buttons/Tabs/arrow_right.png<>uid://bov3ra2ajt18n::::res://Textures/Buttons/Tabs/tab_right_highlight.png<>uid://bisjcpxojnb1c::::res://Textures/Buttons/Tabs/tab_right.png<>uid://c3446mj2msohv::::res://Textures/Buttons/Tabs/arrow_left.png<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://dapxuwt6hrjhh::::res://Scenes and Scripts/UI/Buttons/pull_out_tab.tres
+pull_out_tab_button_up.tscn::PackedScene::6126658786675640256::1694884476::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Buttons/pull_out_tab_button.gd<>uid://dsoknox023dom::::res://Textures/Buttons/Tabs/tab_up.png<>uid://caoqaiv3rlamr::::res://Textures/Buttons/Tabs/tab_up_highlight.png<>uid://dwh7e30xi8v07::::res://Textures/Buttons/Tabs/arrow_down.png<>uid://drw6s2h3fn501::::res://Textures/Buttons/Tabs/arrow_up.png<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader
+::res://Scenes and Scripts/UI/Buttons/ParticleButtons/::1701970534
+ParticleButton.gd::GDScript::-1::1697897324::0::1::::<>PanelButton<>::
+ParticleButton.tscn::PackedScene::7756772659700085805::1701970534::0::1::::<><>::uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://c7hk3afo5tria::::res://Resources/Themes/toggle_button.tres<>res://Scenes and Scripts/UI/Buttons/ParticleButtons/ParticleButton.gd<>uid://c0fv0drhuu6cf::::res://Textures/Buttons/icons/Particles/photon.png
+::res://Scenes and Scripts/UI/ColourPicker/::1701970534
+ColourButton.gd::GDScript::-1::1696408401::0::1::::ColourButton<>PanelButton<>::
+ColourPickerPanel.tscn::PackedScene::8428206635042066972::1703543577::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/ColourPicker/PickerPanel.gd<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://l0tmxxp6t7bs::::res://Textures/UI/ColourPicker/picker_bar.png<>uid://xmlsqgppxb1i::::res://Textures/UI/ColourPicker/picker.png<>uid://ci1qrp3pyqm6h::::res://Textures/Buttons/icons/close.png<>uid://crjli3vncl5g7::::res://Scenes and Scripts/UI/ColourPicker/colour_sampler.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://cgfs1pdopjbh::::res://Textures/Buttons/icons/close_hover.png<>res://Scenes and Scripts/Classes/line_edit.gd<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn
+colour_button.tscn::PackedScene::6593213402748637413::1701970533::0::1::::<><>::uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>res://Scenes and Scripts/UI/ColourPicker/ColourButton.gd<>uid://ddv5m0qeqb5lp::::res://Textures/UI/ColourPicker/colour_icon.png
+colour_sampler.gd::GDScript::-1::1696408401::0::1::::<>PanelContainer<>::
+colour_sampler.tscn::PackedScene::5985314785979458108::1701970534::0::1::::<><>::uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/ColourPicker/colour_sampler.gd<>res://Resources/Shaders/palette_swap.gdshader<>uid://ber05i7n5tlcd::::res://Textures/Buttons/icons/sampler.png
+PaletteList.gd::GDScript::-1::1701527846::0::1::::<>PanelContainer<>::
+palette_control.gd::GDScript::-1::1701526828::0::1::::<>GrabbableControl<>::
+palette_item.gd::GDScript::-1::1701525688::0::1::::<>ListItem<>::
+palette_list.tscn::PackedScene::4523643335306553103::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/ColourPicker/palette_control.gd<>res://Scenes and Scripts/UI/ColourPicker/PaletteList.gd<>uid://wfo6boyk67m8::::res://Scenes and Scripts/UI/ColourPicker/palette_list_item.tscn<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://i0gswa7oaher::::res://saves/Palettes/teastain.tres<>res://Resources/Shaders/palette_swap.gdshader<>uid://1qi6lr05g0vt::::res://Textures/Buttons/icons/add.png<>uid://ovpgrpwbkp6q::::res://saves/Palettes/Default/GameBoy.tres<>uid://7kmcsryae7lw::::res://Scenes and Scripts/UI/Buttons/load_button.tscn<>uid://ckctgd35yhnsn::::res://saves/Palettes/Default/Mushroom.tres<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>uid://ci1qrp3pyqm6h::::res://Textures/Buttons/icons/close.png<>uid://cgfs1pdopjbh::::res://Textures/Buttons/icons/close_hover.png<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn
+palette_list_item.tscn::PackedScene::1555381921572474961::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/Classes/line_edit.gd<>res://Scenes and Scripts/UI/ColourPicker/palette_item.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://bo1u07jlygktr::::res://Textures/Buttons/square_hover.png<>uid://s14bo7fcdam0::::res://Textures/Buttons/square_normal.png<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://cea5mj3u65016::::res://Textures/Buttons/square_pressed_active.png<>uid://d16opu3dyhri7::::res://Textures/Buttons/eye/eye_open.png<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://c062i5iscj5rd::::res://Scenes and Scripts/UI/ColourPicker/colour_button.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://cfmbhoq8cuoge::::res://Resources/Themes/ProjectTheme.tres<>uid://cms1u4elh5bo3::::res://Textures/Buttons/icons/delete.png<>uid://7kmcsryae7lw::::res://Scenes and Scripts/UI/Buttons/load_button.tscn<>uid://c7hk3afo5tria::::res://Resources/Themes/toggle_button.tres<>uid://dwh7e30xi8v07::::res://Textures/Buttons/Tabs/arrow_down.png<>uid://bt1qr2mxq14l8::::res://Textures/Buttons/icons/restart.png<>uid://uuymrv72pyyc::::res://Textures/Buttons/icons/shuffle.png<>uid://qxw17ji0dvra::::res://Textures/Buttons/icons/share.png
+PickerPanel.gd::GDScript::-1::1699559092::0::1::::<>GrabbableControl<>::
+::res://Scenes and Scripts/UI/Equation/::1703016028
+equation.tscn::PackedScene::375216818271138679::1698690250::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://c7tah165tpo1j::::res://Textures/UI/Equation/scroll_grabber_normal.png<>uid://bviwft3lcovj6::::res://Textures/UI/Equation/scroll_grabber_highlight.png<>uid://c0xyku0mewhpu::::res://Textures/UI/Equation/scroll_grabber_pressed.png<>uid://dxt3ti14uhl8s::::res://Textures/UI/Equation/boundary.png<>uid://cqenoy2xbqeok::::res://Textures/UI/Equation/scrollbar.png<>uid://denysnbqxm0co::::res://Textures/UI/Equation/equation_arrow.png<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>res://Scenes and Scripts/UI/Equation/ProblemEquation.gd<>uid://b7be8bbrdmc4v::::res://Textures/UI/Equation/boundary_flipped.png
+EquationSymbol.gd::GDScript::-1::1698692658::0::1::::<>TextureRect<>::
+EquationSymbol.tscn::PackedScene::4787849385663421603::1698694815::0::1::::<><>::res://Scenes and Scripts/Diagram/outline_palette_swap.gdshader<>uid://bhudxuhqjghi2::::res://Textures/ParticlesAndLines/anti_down.png<>res://Scenes and Scripts/UI/Equation/EquationSymbol.gd<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn
+equation_symbol.gdshader::Shader::-1::1703016028::0::1::::<><>::
+mini_equation.tscn::PackedScene::5906217881768300331::1697725157::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://c7tah165tpo1j::::res://Textures/UI/Equation/scroll_grabber_normal.png<>uid://bviwft3lcovj6::::res://Textures/UI/Equation/scroll_grabber_highlight.png<>uid://c0xyku0mewhpu::::res://Textures/UI/Equation/scroll_grabber_pressed.png<>uid://cqenoy2xbqeok::::res://Textures/UI/Equation/scrollbar.png<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>res://Scenes and Scripts/UI/Equation/ProblemEquation.gd<>uid://dxt3ti14uhl8s::::res://Textures/UI/Equation/boundary.png<>uid://denysnbqxm0co::::res://Textures/UI/Equation/equation_arrow.png<>uid://b7be8bbrdmc4v::::res://Textures/UI/Equation/boundary_flipped.png
+ProblemEquation.gd::GDScript::-1::1702475205::0::1::::<>PanelContainer<>::
+::res://Scenes and Scripts/UI/Info/::1703172757
+Info.tres::Theme::2184096279260327970::1703172757::0::1::::<><>::uid://cnhffo703eacx::::res://Textures/Buttons/X_button_hover.png<>uid://x7kuuopqw4yl::::res://Textures/Buttons/X_button_highlight.png<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://b4w0nb2kv1et0::::res://Textures/UI/Information/InfoTabFocus.png<>uid://d0eecxfakl8nn::::res://Textures/UI/Information/InfoTabNormal.png<>uid://bw54k0fgw50is::::res://Textures/UI/Information/InfoTabHover.png<>uid://dohkbu7ekkfx8::::res://Textures/Fonts/pixeltype/Pixeltype.ttf
+interaction_information.gd::GDScript::-1::1698678392::0::1::::<>GrabbableControl<>::
+interaction_information.tscn::PackedScene::5478231821502866000::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://6d80ndd154hq::::res://Scenes and Scripts/UI/Info/Info.tres<>res://Scenes and Scripts/UI/Info/interaction_information.gd<>uid://byprdtpeldk57::::res://Textures/Buttons/X_button_normal.png<>uid://dkay3mveblu0j::::res://Textures/UI/Information/informationTile.png<>uid://x7kuuopqw4yl::::res://Textures/Buttons/X_button_highlight.png<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>res://Scenes and Scripts/Diagram/outline_palette_swap.gdshader<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn
+invalid.tscn::PackedScene::5603623610548642319::1698690250::0::1::::<><>::uid://tql14gtq05lf::::res://Textures/UI/Information/invalid.png
+valid.tscn::PackedScene::1355107308818476297::1688959203::0::1::::<><>::uid://co7w81osg53kf::::res://Textures/UI/Information/valid.png
+::res://Scenes and Scripts/UI/Menus/::1702947777
+controls_tab.gd::GDScript::-1::1698511164::0::1::::<>PullOutTab<>::
+controls_tab.tscn::PackedScene::4625467095065903473::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>res://Scenes and Scripts/UI/Menus/controls_tab.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://cbb30ccopvh6r::::res://Textures/Buttons/icons/reset.png<>uid://bbqo1lidfmuje::::res://Textures/Buttons/icons/undo.png<>uid://80bi27me1iqr::::res://Scenes and Scripts/UI/Buttons/pull_out_tab_button_down.tscn<>uid://7svrwb52wwlb::::res://Textures/Buttons/icons/redo.png<>uid://ba6v4j0iomg0s::::res://Textures/Buttons/icons/spanner.png
+credits.gd::GDScript::-1::1699840526::0::1::::<>GrabbableControl<>::
+credits.tscn::PackedScene::8603516084962366992::1701970533::0::1::::<><>::res://Scenes and Scripts/UI/Menus/credits.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://d38a3uriu26gx::::res://Textures/Buttons/icons/donate.png<>uid://bs7yco7s5pg15::::res://icon.png<>uid://bwwdur67r0bgl::::res://Textures/aseprite.png<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>uid://ci1qrp3pyqm6h::::res://Textures/Buttons/icons/close.png<>uid://cgfs1pdopjbh::::res://Textures/Buttons/icons/close_hover.png<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn
+generation_button.gd::GDScript::-1::1701962726::0::1::::<>PullOutTab<>::
+generation_button.tscn::PackedScene::2851803527738349620::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Menus/generation_button.gd<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://cqfassynt86vn::::res://Scenes and Scripts/UI/Equation/mini_equation.tscn<>uid://q7kyu3yv27sv::::res://Textures/Buttons/icons/hammer.png<>uid://c8iesbop3uqwa::::res://Textures/Buttons/up_down.png<>res://Resources/Shaders/palette_swap.gdshader<>uid://dtkr82iuj8ovy::::res://Textures/Fonts/munro-font/Munro-2LYe.ttf<>uid://dcwv3ofqvfivr::::res://Textures/Buttons/icons/save_states.png<>uid://bug3v1xlp1gfr::::res://Scenes and Scripts/UI/Buttons/pull_out_tab_button_right.tscn<>res://Scenes and Scripts/Classes/spin_box.gd<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn<>uid://d16opu3dyhri7::::res://Textures/Buttons/eye/eye_open.png<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://dvx430022t0ua::::res://Textures/Buttons/icons/next.png<>uid://bf4xxweukjvsb::::res://Textures/Buttons/icons/interaction.png<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://ikybt5yg3l6m::::res://Textures/Buttons/icons/Generate.png<>res://Scenes and Scripts/UI/Menus/PullOutTab.gd<>uid://tql14gtq05lf::::res://Textures/UI/Information/invalid.png
+health_tab.gd::GDScript::-1::1697470695::0::1::::<>PullOutTab<>::
+health_tab.tscn::PackedScene::8782286723403211009::1697468688::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Menus/health_tab.gd<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://co7w81osg53kf::::res://Textures/UI/Information/valid.png<>uid://tql14gtq05lf::::res://Textures/UI/Information/invalid.png<>uid://80bi27me1iqr::::res://Scenes and Scripts/UI/Buttons/pull_out_tab_button_down.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://djfkh4k2lcuyg::::res://Textures/Buttons/Tabs/tab_down_highlight.png<>uid://bw8jm82sn5nmq::::res://Textures/Buttons/Tabs/tab_down.png<>uid://dohkbu7ekkfx8::::res://Textures/Fonts/pixeltype/Pixeltype.ttf<>uid://deaff1f7fx60m::::res://Textures/Buttons/icons/tick_circle.png
+menu_tab.gd::GDScript::-1::1698510564::0::1::::<>PullOutTab<>::
+menu_tab.tscn::PackedScene::1557928933540799521::1698510576::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://ctj2f7ofdkrr1::::res://Scenes and Scripts/UI/Buttons/pull_out_tab_button_up.tscn<>res://Scenes and Scripts/UI/Menus/menu_tab.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://qaoot28mfcll::::res://Textures/Buttons/icons/menu.png<>res://Resources/Shaders/palette_swap.gdshader<>uid://bmns12qjnvbff::::res://Textures/Buttons/icons/exit.png<>uid://cfmbhoq8cuoge::::res://Resources/Themes/ProjectTheme.tres<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://cea5mj3u65016::::res://Textures/Buttons/square_pressed_active.png<>uid://btu2jj1bbbbil::::res://Textures/Buttons/icons/palette.png<>res://Scenes and Scripts/UI/Buttons/MuteButton.gd<>uid://bxlc5rvpwjq8o::::res://Textures/Buttons/icons/unmute.png<>uid://c7hk3afo5tria::::res://Resources/Themes/toggle_button.tres<>uid://ce37himikto8x::::res://Textures/Buttons/icons/label.png
+panelContainer.tres::StyleBoxTexture::8676468783289871035::1699545527::0::1::::<><>::uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png
+problem_tab.gd::GDScript::-1::1702295729::0::1::::<>PullOutTab<>::
+problem_tab.tscn::PackedScene::2478568659365067370::1702947777::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/Menus/PullOutTab.gd<>uid://dvu7f5h7snggp::::res://Scenes and Scripts/UI/Menus/panelContainer.tres<>uid://fl01bx28xqrn::::res://Scenes and Scripts/UI/Equation/equation.tscn<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>res://Scenes and Scripts/UI/Menus/problem_tab.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://d16opu3dyhri7::::res://Textures/Buttons/eye/eye_open.png<>uid://bdcj3gv1qc01r::::res://Textures/Buttons/icons/rewind.png<>uid://tql14gtq05lf::::res://Textures/UI/Information/invalid.png<>uid://djfkh4k2lcuyg::::res://Textures/Buttons/Tabs/tab_down_highlight.png<>uid://b7i5pfnd47348::::res://Textures/Buttons/icons/solution.png<>uid://bw8jm82sn5nmq::::res://Textures/Buttons/Tabs/tab_down.png<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://bcu6ptkd3fwfe::::res://Textures/Buttons/icons/submit.png<>uid://dohkbu7ekkfx8::::res://Textures/Fonts/pixeltype/Pixeltype.ttf<>res://Resources/Shaders/palette_swap.gdshader<>uid://b3diapu0ec332::::res://Textures/Buttons/icons/puzzle_piece.png<>uid://80bi27me1iqr::::res://Scenes and Scripts/UI/Buttons/pull_out_tab_button_down.tscn<>uid://dtkr82iuj8ovy::::res://Textures/Fonts/munro-font/Munro-2LYe.ttf<>uid://bf4xxweukjvsb::::res://Textures/Buttons/icons/interaction.png<>uid://dvx430022t0ua::::res://Textures/Buttons/icons/next.png
+PullOutTab.gd::GDScript::-1::1698237659::0::1::::PullOutTab<>Control<>::
+PuzzleUI.gd::GDScript::-1::1698688999::0::1::::<>PullOutTab<>::
+PuzzleUI.tscn::PackedScene::7481759790432126868::1701970534::0::1::::<><>::res://Scenes and Scripts/UI/Menus/PuzzleUI.gd<>uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://dtkr82iuj8ovy::::res://Textures/Fonts/munro-font/Munro-2LYe.ttf<>uid://c8iesbop3uqwa::::res://Textures/Buttons/up_down.png<>res://Scenes and Scripts/Classes/spin_box.gd<>uid://dvx430022t0ua::::res://Textures/Buttons/icons/next.png<>uid://cfmbhoq8cuoge::::res://Resources/Themes/ProjectTheme.tres<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn<>uid://bug3v1xlp1gfr::::res://Scenes and Scripts/UI/Buttons/pull_out_tab_button_right.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://cvm801v32lknm::::res://Textures/Buttons/icons/puzzle_options.png
+::res://Scenes and Scripts/UI/Menus/MainMenu/::1701970534
+main_menu.gd::GDScript::-1::1700191452::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::3201328305156506511::1701970533::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://c2myqhjupqo25::::res://Textures/Background/tile.png<>res://Scenes and Scripts/UI/Menus/MainMenu/main_menu.gd<>uid://bvc8sakoqg037::::res://Textures/Background/background_border.png<>res://Scenes and Scripts/Diagram/diagram_actions.gd<>uid://bhi4xq3qdbt4d::::res://Scenes and Scripts/Diagram/interaction.tscn<>uid://b22nw60juoc6k::::res://Scenes and Scripts/Diagram/line.tscn<>uid://dvmhtrrnuhqrj::::res://Textures/UI/grid_outline.png<>uid://dtllx04gp77mu::::res://Scenes and Scripts/UI/Menus/MainMenu/problem_selection.tscn<>uid://doyaei3vq3cbb::::res://Textures/Background/state_line_shadow_top.png<>uid://basekc2ce6rmp::::res://Textures/Background/state_line_shadow_tile.png<>uid://pgnduadnvgfx::::res://Scenes and Scripts/Diagram/StateLine.tscn<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://besym8haj5qo4::::res://Scenes and Scripts/UI/Crosshair.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://7ipru72d5e13::::res://Textures/Buttons/icons/sandbox.png<>uid://b20ltmcqk6xwh::::res://Textures/Buttons/icons/question_mark.png<>uid://b4oiaq2nic3ig::::res://Scenes and Scripts/UI/Buttons/MuteButton.tscn<>uid://btu2jj1bbbbil::::res://Textures/Buttons/icons/palette.png<>uid://b3diapu0ec332::::res://Textures/Buttons/icons/puzzle_piece.png<>uid://bxlc5rvpwjq8o::::res://Textures/Buttons/icons/unmute.png<>uid://c7hk3afo5tria::::res://Resources/Themes/toggle_button.tres<>uid://co52c2vc04qom::::res://Textures/Buttons/icons/credit.png<>uid://ds2iet11sv3ty::::res://Scenes and Scripts/UI/Buttons/particle_buttons.tscn<>uid://cv6hlxtiukmtc::::res://Scenes and Scripts/UI/VisionButtons/vision_buttons.tscn<>uid://nuajmillcsir::::res://Scenes and Scripts/Algorithms/SolutionGeneration.tscn<>uid://byrhmsj4f7kxm::::res://Scenes and Scripts/Algorithms/Vision.tscn<>uid://bs6vtukhlou2r::::res://Scenes and Scripts/Algorithms/problem_generation.tscn<>uid://wgw4km4uc7fh::::res://Scenes and Scripts/UI/Menus/menu_tab.tscn<>res://Scenes and Scripts/UI/ShaderControl.gd<>uid://dutuwg10y2hwq::::res://Scenes and Scripts/UI/Menus/credits.tscn
+problem_selection.gd::GDScript::-1::1699837508::0::1::::<>TabContainer<>::
+problem_selection.tscn::PackedScene::8516268553853854108::1701970534::0::1::::<><>::res://Scenes and Scripts/UI/Menus/MainMenu/problem_selection.gd<>uid://b8jrtk1lv0oo0::::res://Scenes and Scripts/UI/ProblemSelection/problem_list.tscn<>res://Scenes and Scripts/UI/Menus/MainMenu/problem_selection_control.gd<>res://Resources/Shaders/palette_swap.gdshader<>uid://c3m8fesktmd85::::res://Scenes and Scripts/UI/ProblemSelection/problem_set_list.tscn
+problem_selection_control.gd::GDScript::-1::1699834832::0::1::::<>GrabbableControl<>::
+::res://Scenes and Scripts/UI/MiniDiagram/::1701970534
+MiniHadronJoint.gd::GDScript::-1::1697898054::0::1::::<>Node2D<>::
+MiniHadronJoint.tscn::PackedScene::1481453264451254202::1697725156::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/MiniDiagram/MiniHadronJoint.gd<>uid://dyybqdcgea7wq::::res://Textures/UI/MiniDiagram/mini_interaction.png
+mini_diagram.gd::GDScript::-1::1698081034::0::1::::MiniDiagram<>DiagramBase<>::
+mini_diagram.tscn::PackedScene::5514343160869755055::1698690351::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://cqtq1r7jcjsec::::res://Resources/Themes/mini_diagram.tres<>uid://cavdk0v6brl1q::::res://Textures/UI/MiniDiagram/mini_tile.png<>res://Scenes and Scripts/UI/MiniDiagram/mini_diagram.gd<>uid://cdiq8shpyh5bd::::res://Scenes and Scripts/UI/MiniDiagram/mini_interaction.tscn<>uid://bnokrsnuhk2qo::::res://Textures/UI/MiniDiagram/Outline.png<>uid://5kfhodkoc3m0::::res://Textures/UI/MiniDiagram/mini_stateline.png<>uid://bk8xjrcxummfx::::res://Scenes and Scripts/UI/MiniDiagram/mini_particle_line.tscn
+mini_diagram_viewer.gd::GDScript::-1::1700191897::0::1::::MiniDiagramViewer<>GrabbableControl<>::
+mini_diagram_viewer.tscn::PackedScene::7330768186823152086::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://dohkbu7ekkfx8::::res://Textures/Fonts/pixeltype/Pixeltype.ttf<>res://Scenes and Scripts/UI/MiniDiagram/mini_diagram_viewer.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://cktgoqxrvgsh0::::res://Scenes and Scripts/UI/MiniDiagram/mini_diagram.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://bm3ag65nskhpk::::res://Textures/UI/MiniDiagram/arrow_left.png<>uid://cb6lapmtgwimd::::res://Textures/UI/MiniDiagram/arrow_right.png<>uid://bvdr8f7dmjpmi::::res://Textures/Buttons/icons/upload.png<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://cms1u4elh5bo3::::res://Textures/Buttons/icons/delete.png<>uid://dd8aycuymlcjg::::res://Textures/Buttons/icons/resave.png<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>uid://ci1qrp3pyqm6h::::res://Textures/Buttons/icons/close.png<>uid://cgfs1pdopjbh::::res://Textures/Buttons/icons/close_hover.png<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn
+mini_interaction.gd::GDScript::-1::1693226686::0::1::::<>Sprite2D<>::
+mini_interaction.tscn::PackedScene::5000954280363749237::1695294938::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/MiniDiagram/mini_interaction.gd<>uid://dyybqdcgea7wq::::res://Textures/UI/MiniDiagram/mini_interaction.png<>uid://dkbboxr0kyk36::::res://Textures/UI/MiniDiagram/mini_interaction_dot.png
+mini_particle_line.gd::GDScript::-1::1697897906::0::1::::<>Node2D<>::
+mini_particle_line.tscn::PackedScene::3157847045994958705::1698080776::0::1::::<><>::res://Resources/Shaders/particle_line.gdshader<>res://Scenes and Scripts/UI/MiniDiagram/mini_particle_line.gd<>uid://iitnraau4c6m::::res://Resources/Shaders/outline0.tres<>uid://b8glr5vnlacpl::::res://Textures/ParticlesAndLines/gluon_end.png<>uid://0j7y2hp7whj6::::res://Textures/ParticlesAndLines/Lines/loop.png<>uid://dya0nescxtd67::::res://Textures/ParticlesAndLines/arrow.png<>res://Scenes and Scripts/Diagram/outline_palette_swap.gdshader
+::res://Scenes and Scripts/UI/ProblemSelection/::1702294011
+BaseCheckButton.gd::GDScript::-1::1698692598::0::1::::<>CheckButton<>::
+creation_information.gd::GDScript::-1::1698678392::0::1::::<>GrabbableControl<>::
+creation_information.tscn::PackedScene::6915813847203992320::1701970536::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>res://Scenes and Scripts/UI/ProblemSelection/creation_information.gd<>res://Resources/Shaders/palette_swap.gdshader<>uid://buskwt83mql4x::::res://Scenes and Scripts/UI/ProblemSelection/particle_selection_info.tscn<>uid://rtdlfrcuvhi8::::res://Scenes and Scripts/UI/ProblemSelection/problem_creation_info.tscn<>uid://bvn4ssrvphh28::::res://Scenes and Scripts/UI/ProblemSelection/solution_creation_info.tscn
+info_panel.gd::GDScript::-1::1698678392::0::1::::InfoPanel<>PanelContainer<>::
+particle_selection_info.gd::GDScript::-1::1697543792::0::1::::<>InfoPanel<>::
+particle_selection_info.tscn::PackedScene::3828003863631466013::1701970533::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/ProblemSelection/particle_selection_info.gd<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://dvx430022t0ua::::res://Textures/Buttons/icons/next.png
+problem_creation_info.gd::GDScript::-1::1698409110::0::1::::<>InfoPanel<>::
+problem_creation_info.tscn::PackedScene::1232635602881796661::1701970533::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/ProblemSelection/problem_creation_info.gd<>uid://cfmbhoq8cuoge::::res://Resources/Themes/ProjectTheme.tres<>uid://tql14gtq05lf::::res://Textures/UI/Information/invalid.png<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://c8iesbop3uqwa::::res://Textures/Buttons/up_down.png<>uid://bf4xxweukjvsb::::res://Textures/Buttons/icons/interaction.png<>res://Resources/Shaders/palette_swap.gdshader<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn<>uid://c3nrennubqoow::::res://Textures/Buttons/icons/back.png<>uid://dtkr82iuj8ovy::::res://Textures/Fonts/munro-font/Munro-2LYe.ttf<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://dvx430022t0ua::::res://Textures/Buttons/icons/next.png<>res://Scenes and Scripts/Classes/spin_box.gd
+problem_list.gd::GDScript::-1::1699834232::0::1::::<>PanelContainer<>::
+problem_list.tscn::PackedScene::4722298608423198885::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/ProblemSelection/problem_list.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://1qi6lr05g0vt::::res://Textures/Buttons/icons/add.png<>uid://c3nrennubqoow::::res://Textures/Buttons/icons/back.png<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn
+problem_selector.gd::GDScript::-1::1699831186::0::1::::<>PanelContainer<>::
+problem_selector.tscn::PackedScene::699277676406735350::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/ProblemSelection/problem_selector.gd<>uid://cqfassynt86vn::::res://Scenes and Scripts/UI/Equation/mini_equation.tscn<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://cb6lapmtgwimd::::res://Textures/UI/MiniDiagram/arrow_right.png<>uid://cms1u4elh5bo3::::res://Textures/Buttons/icons/delete.png<>uid://drw6s2h3fn501::::res://Textures/Buttons/Tabs/arrow_up.png<>uid://em240kmik0fw::::res://Textures/Buttons/icons/modify.png<>uid://dwh7e30xi8v07::::res://Textures/Buttons/Tabs/arrow_down.png<>uid://co7w81osg53kf::::res://Textures/UI/Information/valid.png
+problem_set_item.gd::GDScript::-1::1699840742::0::1::::<>ListItem<>::
+problem_set_item.tscn::PackedScene::4575557244357349965::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://dvu7f5h7snggp::::res://Scenes and Scripts/UI/Menus/panelContainer.tres<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>res://Scenes and Scripts/UI/ProblemSelection/problem_set_item.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Scenes and Scripts/Classes/line_edit.gd<>uid://cb6lapmtgwimd::::res://Textures/UI/MiniDiagram/arrow_right.png<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://cms1u4elh5bo3::::res://Textures/Buttons/icons/delete.png<>uid://d16opu3dyhri7::::res://Textures/Buttons/eye/eye_open.png<>uid://7kmcsryae7lw::::res://Scenes and Scripts/UI/Buttons/load_button.tscn<>res://Resources/Shaders/palette_swap.gdshader<>uid://qxw17ji0dvra::::res://Textures/Buttons/icons/share.png<>uid://co7w81osg53kf::::res://Textures/UI/Information/valid.png
+problem_set_list.gd::GDScript::-1::1702294011::0::1::::<>PanelContainer<>::
+problem_set_list.tscn::PackedScene::6764914350410744924::1701970534::0::1::::<><>::uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>res://Resources/Shaders/palette_swap.gdshader<>res://Scenes and Scripts/UI/ProblemSelection/problem_set_list.gd<>uid://1qi6lr05g0vt::::res://Textures/Buttons/icons/add.png<>uid://7kmcsryae7lw::::res://Scenes and Scripts/UI/Buttons/load_button.tscn<>uid://bubm5sx3xn6q5::::res://Resources/Themes/TitleLabel.tres<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn<>uid://ci1qrp3pyqm6h::::res://Textures/Buttons/icons/close.png<>uid://cgfs1pdopjbh::::res://Textures/Buttons/icons/close_hover.png
+solution_creation_info.gd::GDScript::-1::1699714803::0::1::::<>InfoPanel<>::
+solution_creation_info.tscn::PackedScene::3889017220631524571::1701970533::0::1::::<><>::uid://tql14gtq05lf::::res://Textures/UI/Information/invalid.png<>uid://b863l3lxgsu55::::res://Resources/Shaders/palette_swap_material.tres<>res://Scenes and Scripts/UI/ProblemSelection/solution_creation_info.gd<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://cq27s0444iwkg::::res://Textures/Fonts/ConnectionIi-2wj8.otf<>res://Resources/Shaders/palette_swap.gdshader<>uid://c3nrennubqoow::::res://Textures/Buttons/icons/back.png<>uid://dorw3vr2amuy3::::res://Scenes and Scripts/Components/button_sound_component.tscn<>uid://c338whou4al23::::res://Scenes and Scripts/UI/Tooltip.tscn<>uid://dtkr82iuj8ovy::::res://Textures/Fonts/munro-font/Munro-2LYe.ttf<>uid://bcu6ptkd3fwfe::::res://Textures/Buttons/icons/submit.png<>uid://c8iesbop3uqwa::::res://Textures/Buttons/up_down.png<>res://Scenes and Scripts/Classes/spin_box.gd
+::res://Scenes and Scripts/UI/VisionButtons/::1698678393
+vision_buttons.gd::GDScript::-1::1698678393::0::1::::<>PullOutTab<>::
+vision_buttons.tscn::PackedScene::6311248694622009224::1697468688::0::1::::<><>::res://Resources/Shaders/palette_swap.gdshader<>res://Scenes and Scripts/UI/VisionButtons/vision_buttons.gd<>uid://cfmbhoq8cuoge::::res://Resources/Themes/ProjectTheme.tres<>uid://c842ueypoq88x::::res://Scenes and Scripts/UI/Buttons/pull_out_tab_button_left.tscn<>uid://c7jti5gp87fni::::res://Textures/UI/Information/InfoBox.png<>uid://c4lyyfxwvqyfk::::res://Scenes and Scripts/UI/Buttons/panelButton.tscn<>uid://b4nip5xmw07y4::::res://Textures/Buttons/icons/shade.png<>uid://bv0t333v5kk08::::res://Textures/Buttons/icons/colour_wheel.png<>uid://dosrelr2snlx::::res://Textures/Buttons/icons/dumbell.png<>uid://bo1u07jlygktr::::res://Textures/Buttons/square_hover.png<>uid://s14bo7fcdam0::::res://Textures/Buttons/square_normal.png<>uid://d16opu3dyhri7::::res://Textures/Buttons/eye/eye_open.png<>uid://cea5mj3u65016::::res://Textures/Buttons/square_pressed_active.png<>uid://j0pea6e3gc0u::::res://Textures/Buttons/eye/eye_blink1.png<>uid://dudgi4erunjq1::::res://Textures/Buttons/eye/eye_middle.png<>uid://q0m86e7d8xik::::res://Textures/Buttons/eye/eye_closed.png
+::res://Textures/::1703173349
+aseprite.png::CompressedTexture2D::3976210363439050483::1696972502::1703173349::1::::<><>::
+colour_arrow.png::CompressedTexture2D::1138298662252521721::1666448851::1703173349::1::::<><>::
+game_icon.png::CompressedTexture2D::522261359415629497::1701263318::1703173349::1::::<><>::
+godot_icon.png::CompressedTexture2D::8408769566683769613::1696982973::1703173349::1::::<><>::
+joint.png::CompressedTexture2D::544720900516098999::1690240737::1703173349::1::::<><>::
+splash_icon.png::CompressedTexture2D::4839792140031309028::1697218996::1703173349::1::::<><>::
+splash_icon.webp::CompressedTexture2D::6397293185875657415::1696968301::1703173349::1::::<><>::
+::res://Textures/Background/::1703173349
+background_border.png::CompressedTexture2D::3866550976757269292::1690385229::1703173349::1::::<><>::
+stateline_grab_area.png::CompressedTexture2D::6222959294682272467::1693226686::1703173349::1::::<><>::
+state_line.png::CompressedTexture2D::3913685682633423294::1688392549::1703173349::1::::<><>::
+state_line_shadow_tile.png::CompressedTexture2D::2423840356030166051::1694178664::1703173349::1::::<><>::
+state_line_shadow_top.png::CompressedTexture2D::8191458535702763691::1694178767::1703173349::1::::<><>::
+state_line_tile.png::CompressedTexture2D::4348219208313222907::1689977252::1703173349::1::::<><>::
+state_line_top.png::CompressedTexture2D::5541151527194593546::1697553674::1703173349::1::::<><>::
+tile.png::CompressedTexture2D::6694198841686757532::1692464429::1703173349::1::::<><>::
+::res://Textures/Buttons/::1703173349
+cut_touch_button_normal.png::CompressedTexture2D::7232586375069946872::1698330248::1703173349::1::::<><>::
+cut_touch_button_pressed.png::CompressedTexture2D::969574620509812548::1698330175::1703173349::1::::<><>::
+move_touch_button_normal.png::CompressedTexture2D::3739637825938579330::1698330187::1703173349::1::::<><>::
+move_touch_button_pressed.png::CompressedTexture2D::7294484247946479088::1698330229::1703173349::1::::<><>::
+square_disabled.png::CompressedTexture2D::2573132093528205024::1695899683::1703173349::1::::<><>::
+square_hover.png::CompressedTexture2D::3423998996116614415::1695899683::1703173349::1::::<><>::
+square_normal.png::CompressedTexture2D::1318836370664880905::1695899683::1703173349::1::::<><>::
+square_normal_active.png::CompressedTexture2D::4180153787745798197::1699558606::1703173349::1::::<><>::
+square_pressed.png::CompressedTexture2D::3583257187358052267::1695899683::1703173349::1::::<><>::
+square_pressed_active.png::CompressedTexture2D::5055440198164203095::1695899683::1703173349::1::::<><>::
+up_down.png::CompressedTexture2D::7105863316605469036::1697021656::1703173349::1::::<><>::
+X_button_highlight.png::CompressedTexture2D::1681047450408496703::1698160872::1703173349::1::::<><>::
+X_button_hover.png::CompressedTexture2D::5700060278826501979::1698160884::1703173349::1::::<><>::
+X_button_normal.png::CompressedTexture2D::4102957164887810380::1698160854::1703173349::1::::<><>::
+X_icon.png::CompressedTexture2D::3191493916105030096::1696408401::1703173349::1::::<><>::
+::res://Textures/Buttons/CheckButton/::1703173349
+checked.png::CompressedTexture2D::6099711668431406991::1694884476::1703173349::1::::<><>::
+unchecked.png::CompressedTexture2D::4994121754590729963::1694884476::1703173349::1::::<><>::
+::res://Textures/Buttons/eye/::1703173349
+eye_blink1.png::CompressedTexture2D::684226982769237406::1690205760::1703173349::1::::<><>::
+eye_closed.png::CompressedTexture2D::1175420113034410286::1690205749::1703173349::1::::<><>::
+eye_middle.png::CompressedTexture2D::8569612175565990822::1690205744::1703173349::1::::<><>::
+eye_open-export.png::CompressedTexture2D::7211395103373173522::1693246542::1703173349::1::::<><>::
+eye_open.png::CompressedTexture2D::9049045614741502092::1693246546::1703173349::1::::<><>::
+::res://Textures/Buttons/icons/::1703173349
+add.png::CompressedTexture2D::1858481679401749681::1695899683::1703173349::1::::<><>::
+back.png::CompressedTexture2D::6766005935903235066::1695899683::1703173349::1::::<><>::
+close.png::CompressedTexture2D::5389028600295685045::1696408401::1703173349::1::::<><>::
+close_hover.png::CompressedTexture2D::153101071989328837::1696408401::1703173349::1::::<><>::
+cog.png::CompressedTexture2D::8261100540329585075::1697731860::1703173349::1::::<><>::
+colour_wheel.png::CompressedTexture2D::3913200983938142571::1690205954::1703173349::1::::<><>::
+copy.png::CompressedTexture2D::6289448422219231220::1696408401::1703173349::1::::<><>::
+credit.png::CompressedTexture2D::5819060892029737760::1698686526::1703173349::1::::<><>::
+delete.png::CompressedTexture2D::5653882178172389308::1693763314::1703173349::1::::<><>::
+donate.png::CompressedTexture2D::9192725218177504951::1696969822::1703173349::1::::<><>::
+dumbell.png::CompressedTexture2D::240591311732568929::1692464429::1703173349::1::::<><>::
+error_circle.png::CompressedTexture2D::2499580154281508660::1695899683::1703173349::1::::<><>::
+exit.png::CompressedTexture2D::3256664497938032843::1695899683::1703173349::1::::<><>::
+finish.png::CompressedTexture2D::1137474523087017874::1697635262::1703173349::1::::<><>::
+Generate.png::CompressedTexture2D::583614565652524566::1698692598::1703173349::1::::<><>::
+hammer.png::CompressedTexture2D::1189732710160951713::1698148781::1703173349::1::::<><>::
+interaction.png::CompressedTexture2D::2798670583459809057::1696974258::1703173349::1::::<><>::
+label.png::CompressedTexture2D::5113355202479931497::1697026928::1703173349::1::::<><>::
+load.png::CompressedTexture2D::2767697471047978066::1696946094::1703173349::1::::<><>::
+menu.png::CompressedTexture2D::1123897578390893393::1694185828::1703173349::1::::<><>::
+modify.png::CompressedTexture2D::307220383516919028::1694795983::1703173349::1::::<><>::
+mute.png::CompressedTexture2D::1413011665245480439::1695899683::1703173349::1::::<><>::
+next.png::CompressedTexture2D::8682520603808400500::1695899683::1703173349::1::::<><>::
+palette.png::CompressedTexture2D::3762952211768629079::1696408401::1703173349::1::::<><>::
+paste.png::CompressedTexture2D::5262769360722963387::1696408401::1703173349::1::::<><>::
+puzzle_options.png::CompressedTexture2D::6273629321799228982::1697735694::1703173349::1::::<><>::
+puzzle_piece.png::CompressedTexture2D::4358387994650002227::1697734954::1703173349::1::::<><>::
+question_mark.png::CompressedTexture2D::4333831356887480423::1698676585::1703173349::1::::<><>::
+redo.png::CompressedTexture2D::2284508369793133103::1694195410::1703173349::1::::<><>::
+resave.png::CompressedTexture2D::7437996043980800216::1700191491::1703173349::1::::<><>::
+reset.png::CompressedTexture2D::4846839418216662307::1694195586::1703173349::1::::<><>::
+restart.png::CompressedTexture2D::3774685802537476027::1694784056::1703173349::1::::<><>::
+rewind.png::CompressedTexture2D::2601712774063357433::1693246478::1703173349::1::::<><>::
+sampler.png::CompressedTexture2D::2703842448952607883::1695899683::1703173349::1::::<><>::
+sandbox.png::CompressedTexture2D::2263500232970088992::1696408401::1703173349::1::::<><>::
+save.png::CompressedTexture2D::3305806722607481960::1696408401::1703173349::1::::<><>::
+save_states.png::CompressedTexture2D::7346381851828276275::1697717845::1703173349::1::::<><>::
+shade.png::CompressedTexture2D::4449248194656173237::1692464429::1703173349::1::::<><>::
+share.png::CompressedTexture2D::1171886086081761406::1696946473::1703173349::1::::<><>::
+shuffle-export.png::CompressedTexture2D::1640189840726821631::1695899683::1703173349::1::::<><>::
+shuffle.png::CompressedTexture2D::1446543992023575034::1695899683::1703173349::1::::<><>::
+solution.png::CompressedTexture2D::4650827281709742171::1693245865::1703173349::1::::<><>::
+spanner.png::CompressedTexture2D::2451743750653225084::1698330852::1703173349::1::::<><>::
+submit.png::CompressedTexture2D::2569995953300337870::1693245357::1703173349::1::::<><>::
+tick_circle.png::CompressedTexture2D::7440331314357471266::1696165260::1703173349::1::::<><>::
+undo.png::CompressedTexture2D::2490536630195117590::1694195435::1703173349::1::::<><>::
+unmute.png::CompressedTexture2D::4023648176514332536::1695899683::1703173349::1::::<><>::
+upload.png::CompressedTexture2D::3867670965633057732::1693763108::1703173349::1::::<><>::
+::res://Textures/Buttons/icons/Particles/::1703173349
+bottom.png::CompressedTexture2D::8693515515142150179::1696965397::1703173349::1::::<><>::
+bright_quark.png::CompressedTexture2D::6657147291943794275::1696965434::1703173349::1::::<><>::
+charm.png::CompressedTexture2D::4256570609393264791::1696965398::1703173349::1::::<><>::
+dark_quark.png::CompressedTexture2D::240816952921382005::1696965433::1703173349::1::::<><>::
+down.png::CompressedTexture2D::7205766289581341861::1696965399::1703173349::1::::<><>::
+electron.png::CompressedTexture2D::72401901208105113::1696965432::1703173349::1::::<><>::
+electron_neutrino.png::CompressedTexture2D::3259839925595275779::1696965400::1703173349::1::::<><>::
+gluon.png::CompressedTexture2D::7724222350968778645::1696965401::1703173349::1::::<><>::
+H.png::CompressedTexture2D::1942684443865334828::1696965402::1703173349::1::::<><>::
+lepton.png::CompressedTexture2D::6115538119285344707::1696965430::1703173349::1::::<><>::
+lepton_neutrino.png::CompressedTexture2D::3274069901823625202::1696965431::1703173349::1::::<><>::
+muon.png::CompressedTexture2D::1073483330359228507::1696965404::1703173349::1::::<><>::
+muon_neutrino.png::CompressedTexture2D::7096465882599647363::1696965403::1703173349::1::::<><>::
+photon.png::CompressedTexture2D::6539204232980350917::1696965405::1703173349::1::::<><>::
+strange.png::CompressedTexture2D::8437892849929269555::1696965406::1703173349::1::::<><>::
+tau.png::CompressedTexture2D::7173968819283624921::1696965408::1703173349::1::::<><>::
+tau_neutrino.png::CompressedTexture2D::7833760814514592906::1696965407::1703173349::1::::<><>::
+top.png::CompressedTexture2D::3524081954925014402::1696965410::1703173349::1::::<><>::
+up.png::CompressedTexture2D::6974083092955858597::1696965411::1703173349::1::::<><>::
+W.png::CompressedTexture2D::2447437771742882606::1696965412::1703173349::1::::<><>::
+Z.png::CompressedTexture2D::3425263032392021997::1696965414::1703173349::1::::<><>::
+::res://Textures/Buttons/Tabs/::1703173349
+arrow_down.png::CompressedTexture2D::8719818852669522542::1689964172::1703173349::1::::<><>::
+arrow_left.png::CompressedTexture2D::6799812741947079467::1689964157::1703173349::1::::<><>::
+arrow_right.png::CompressedTexture2D::3629198250750706726::1689964144::1703173349::1::::<><>::
+arrow_up.png::CompressedTexture2D::8399804504804722140::1689964124::1703173349::1::::<><>::
+tab_down.png::CompressedTexture2D::3999269367892221596::1690394089::1703173349::1::::<><>::
+tab_down_highlight.png::CompressedTexture2D::7801904742943649446::1689964072::1703173349::1::::<><>::
+tab_left.png::CompressedTexture2D::2691578604325162559::1690394086::1703173349::1::::<><>::
+tab_left_highlight.png::CompressedTexture2D::8909223996825450794::1689964029::1703173349::1::::<><>::
+tab_right.png::CompressedTexture2D::2985641080922533746::1690394081::1703173349::1::::<><>::
+tab_right_highlight.png::CompressedTexture2D::3414146903477178175::1689964007::1703173349::1::::<><>::
+tab_up.png::CompressedTexture2D::8452193682399625956::1690394068::1703173349::1::::<><>::
+tab_up_highlight.png::CompressedTexture2D::4802714581750338641::1689963991::1703173349::1::::<><>::
+::res://Textures/Cursors/::1703173349
+confused.png::CompressedTexture2D::7348026946806437645::1698678250::1703173349::1::::<><>::
+cursor_disabled.png::CompressedTexture2D::7825343856939606113::1671279664::1703173349::1::::<><>::
+cursor_hold.png::CompressedTexture2D::4576199329190844847::1698512511::1703173349::1::::<><>::
+cursor_hover.png::CompressedTexture2D::4616369619313589662::1671291494::1703173349::1::::<><>::
+cursor_middle.png::CompressedTexture2D::941103208347904116::1671291491::1703173349::1::::<><>::
+cursor_point copy.png::CompressedTexture2D::1007205144315007822::1671291207::1703173349::1::::<><>::
+cursor_point.png::CompressedTexture2D::5354094636452593706::1698678265::1703173349::1::::<><>::
+cursor_press.png::CompressedTexture2D::8040147681240134651::1671291484::1703173349::1::::<><>::
+cursor_snip.png::CompressedTexture2D::1077409397648549193::1671291481::1703173349::1::::<><>::
+cursor_snipped.png::CompressedTexture2D::4382827558096185526::1671291478::1703173349::1::::<><>::
+heart.png::CompressedTexture2D::4799978051592127457::1671383646::1703173349::1::::<><>::
+loving.png::CompressedTexture2D::5699976311616883155::1698678284::1703173349::1::::<><>::
+::res://Textures/Fonts/::1703173349
+ConnectionIi-2wj8.otf::FontFile::5953577512252952098::1578276956::1703173349::1::::<><>::
+::res://Textures/Fonts/munro-font/::1703173349
+Munro-2LYe.ttf::FontFile::8514586409229346354::1670151890::1703173349::1::::<><>::
+MunroSmall-wPZw.ttf::FontFile::1769349533350921687::1670151890::1703173349::1::::<><>::
+::res://Textures/Fonts/pixeltype/::1703173349
+Pixeltype.ttf::FontFile::8156966562107993395::1444769160::1703173349::1::::<><>::
+::res://Textures/Interactions/::1703173349
+dot.png::CompressedTexture2D::4910907481488795552::1696980479::1703173349::1::::<><>::
+Interaction.png::CompressedTexture2D::8582741577818785293::1690033110::1703173349::1::::<><>::
+interaction_background.png::CompressedTexture2D::5464707646427711351::1689703426::1703173349::1::::<><>::
+interaction_invalid.png::CompressedTexture2D::8135646734548970928::1695899683::1703173349::1::::<><>::
+::res://Textures/ParticlesAndLines/::1703173349
+anti_bottom.png::CompressedTexture2D::695960270433940553::1697554697::1703173349::1::::<><>::
+anti_bright_quark.png::CompressedTexture2D::1612570303859081776::1697554679::1703173349::1::::<><>::
+anti_charm.png::CompressedTexture2D::1841851612361266209::1697554670::1703173349::1::::<><>::
+anti_dark_quark.png::CompressedTexture2D::930325507640427215::1697554408::1703173349::1::::<><>::
+anti_down.png::CompressedTexture2D::2919254430498507079::1697554417::1703173349::1::::<><>::
+anti_electron.png::CompressedTexture2D::6952727125358447287::1697554432::1703173349::1::::<><>::
+anti_electron_neutrino.png::CompressedTexture2D::1729800495867764503::1697554424::1703173349::1::::<><>::
+anti_lepton.png::CompressedTexture2D::1551366805288621382::1697554490::1703173349::1::::<><>::
+anti_lepton_neutrino.png::CompressedTexture2D::4144862058692923671::1697554481::1703173349::1::::<><>::
+anti_muon.png::CompressedTexture2D::802668312607687300::1697554505::1703173349::1::::<><>::
+anti_muon_neutrino.png::CompressedTexture2D::6751603764564495246::1697554498::1703173349::1::::<><>::
+anti_neutrino.png::CompressedTexture2D::5697417233435514259::1697554527::1703173349::1::::<><>::
+anti_strange.png::CompressedTexture2D::5007719866944814472::1697558147::1703173349::1::::<><>::
+anti_tau.png::CompressedTexture2D::2895784169061672994::1697554560::1703173349::1::::<><>::
+anti_tau_neutrino.png::CompressedTexture2D::6884919734801909703::1697554551::1703173349::1::::<><>::
+anti_top.png::CompressedTexture2D::5492510011342176528::1697554571::1703173349::1::::<><>::
+anti_up.png::CompressedTexture2D::6712609171523223373::1697554580::1703173349::1::::<><>::
+anti_W.png::CompressedTexture2D::1081020081392322334::1697554588::1703173349::1::::<><>::
+arrow.png::CompressedTexture2D::8845335676554243602::1690240352::1703173349::1::::<><>::
+bottom.png::CompressedTexture2D::7673291898921734486::1697554631::1703173349::1::::<><>::
+bottom_anti.png::CompressedTexture2D::5372203427814349330::1697554619::1703173349::1::::<><>::
+bright_quark.png::CompressedTexture2D::7845882312830683059::1697554641::1703173349::1::::<><>::
+charm.png::CompressedTexture2D::1239801955712635681::1697554650::1703173349::1::::<><>::
+dark_quark.png::CompressedTexture2D::6427401912426524635::1697554662::1703173349::1::::<><>::
+down.png::CompressedTexture2D::2337723295977160550::1697554356::1703173349::1::::<><>::
+electron.png::CompressedTexture2D::7972449081174697062::1697554334::1703173349::1::::<><>::
+electron_neutrino.png::CompressedTexture2D::5643017823161991483::1697554346::1703173349::1::::<><>::
+Electroweak.png::CompressedTexture2D::3623051378849960213::1690240550::1703173349::1::::<><>::
+gluon.png::CompressedTexture2D::7664943512597279369::1697554319::1703173349::1::::<><>::
+gluon_end.png::CompressedTexture2D::4715738644436102817::1690240549::1703173349::1::::<><>::
+H.png::CompressedTexture2D::3797228984522545414::1697554312::1703173349::1::::<><>::
+lepton.png::CompressedTexture2D::3380924807083371193::1697554259::1703173349::1::::<><>::
+lepton_neutrino.png::CompressedTexture2D::1129509058907746560::1697554285::1703173349::1::::<><>::
+loop.png::CompressedTexture2D::2519760439125221106::1690240542::1703173349::1::::<><>::
+mu.png::CompressedTexture2D::1023825835652269954::1697554237::1703173349::1::::<><>::
+muon.png::CompressedTexture2D::5575455948791970357::1697554218::1703173349::1::::<><>::
+muon_neutrino.png::CompressedTexture2D::7413132847811161630::1697554227::1703173349::1::::<><>::
+mu_neutrino.png::CompressedTexture2D::2925062662937830210::1697554249::1703173349::1::::<><>::
+Particle.png::CompressedTexture2D::6617197903762613633::1690240535::1703173349::1::::<><>::
+photon.png::CompressedTexture2D::1717224376101608114::1697554199::1703173349::1::::<><>::
+strange.png::CompressedTexture2D::1535993607983548567::1697554188::1703173349::1::::<><>::
+tau.png::CompressedTexture2D::8860960784275864364::1697554074::1703173349::1::::<><>::
+tau_neutrino.png::CompressedTexture2D::5488330323087882481::1697554102::1703173349::1::::<><>::
+top.png::CompressedTexture2D::3951549484881419095::1697554052::1703173349::1::::<><>::
+up.png::CompressedTexture2D::2197950154799761348::1697554025::1703173349::1::::<><>::
+W.png::CompressedTexture2D::701970437449337230::1697553959::1703173349::1::::<><>::
+W_0.png::CompressedTexture2D::6790120104997544006::1697554010::1703173349::1::::<><>::
+W_minus.png::CompressedTexture2D::3186460717745464320::1697553982::1703173349::1::::<><>::
+Z.png::CompressedTexture2D::8517220984843799339::1697558791::1703173349::1::::<><>::
+::res://Textures/ParticlesAndLines/Hadrons/::1703173349
+B_0.png::CompressedTexture2D::136477211539592230::1697561282::1703173349::1::::<><>::
+B_0_anti.png::CompressedTexture2D::7990019672611779197::1697561291::1703173349::1::::<><>::
+B_minus.png::CompressedTexture2D::6814014915752798323::1697561271::1703173349::1::::<><>::
+B_plus.png::CompressedTexture2D::339944599173629940::1697561262::1703173349::1::::<><>::
+delta_0.png::CompressedTexture2D::3269385774912447103::1697561191::1703173349::1::::<><>::
+delta_0_anti.png::CompressedTexture2D::7506214394931507392::1697561201::1703173349::1::::<><>::
+delta_minus.png::CompressedTexture2D::2711362029037733829::1697561166::1703173349::1::::<><>::
+delta_minus_anti.png::CompressedTexture2D::7726077209870038406::1697561176::1703173349::1::::<><>::
+delta_plus.png::CompressedTexture2D::970878951046851058::1697561088::1703173349::1::::<><>::
+delta_plus_anti.png::CompressedTexture2D::3593030166976825127::1697561133::1703173349::1::::<><>::
+delta_plus_plus.png::CompressedTexture2D::2493829579351561832::1697561110::1703173349::1::::<><>::
+delta_plus_plus_anti.png::CompressedTexture2D::6793269426389995438::1697561123::1703173349::1::::<><>::
+D_0.png::CompressedTexture2D::2719695299812302677::1697561246::1703173349::1::::<><>::
+D_0_anti.png::CompressedTexture2D::8213230753876902960::1697561254::1703173349::1::::<><>::
+D_minus.png::CompressedTexture2D::7346584959854992050::1697561230::1703173349::1::::<><>::
+D_minus_anti.png::CompressedTexture2D::5894179497224807547::1697561238::1703173349::1::::<><>::
+D_plus.png::CompressedTexture2D::8072841985572049881::1697561214::1703173349::1::::<><>::
+epsilon_0.png::CompressedTexture2D::8536237727167012507::1697561055::1703173349::1::::<><>::
+epsilon_0_anti.png::CompressedTexture2D::3318530683618624897::1697561073::1703173349::1::::<><>::
+epsilon_minus.png::CompressedTexture2D::3369275138742340992::1697561038::1703173349::1::::<><>::
+epsilon_minus_anti.png::CompressedTexture2D::4894219921097083929::1697561047::1703173349::1::::<><>::
+epsilon_plus.png::CompressedTexture2D::2025855665211358270::1697561028::1703173349::1::::<><>::
+Invalid.png::CompressedTexture2D::4323026368819185391::1690662356::1703173349::1::::<><>::
+J_psi.png::CompressedTexture2D::4502782182250302836::1697561010::1703173349::1::::<><>::
+kaon_0.png::CompressedTexture2D::938521540355440634::1697560935::1703173349::1::::<><>::
+kaon_0_anti.png::CompressedTexture2D::5864946079731455967::1697560950::1703173349::1::::<><>::
+kaon_minus.png::CompressedTexture2D::1716698586373224779::1697560926::1703173349::1::::<><>::
+kaon_plus.png::CompressedTexture2D::2464382880043461525::1697560916::1703173349::1::::<><>::
+lambda_0.png::CompressedTexture2D::5864029336926089505::1697560829::1703173349::1::::<><>::
+lambda_0_anti.png::CompressedTexture2D::930398541000932870::1697560891::1703173349::1::::<><>::
+lambda_minus.png::CompressedTexture2D::1551052039204886725::1697560680::1703173349::1::::<><>::
+lambda_minus_anti.png::CompressedTexture2D::8276320524917689758::1697560714::1703173349::1::::<><>::
+lambda_plus.png::CompressedTexture2D::6512231617196284131::1697560733::1703173349::1::::<><>::
+lambda_plus_anti.png::CompressedTexture2D::5725706149818248071::1697560670::1703173349::1::::<><>::
+neutron.png::CompressedTexture2D::7115861844828761338::1697560626::1703173349::1::::<><>::
+neutron_anti.png::CompressedTexture2D::1578319300682142506::1697560637::1703173349::1::::<><>::
+omega_minus.png::CompressedTexture2D::3668750053143883552::1697560589::1703173349::1::::<><>::
+omega_minus_anti.png::CompressedTexture2D::4249488978275518294::1697560599::1703173349::1::::<><>::
+pion_0.png::CompressedTexture2D::4823267366888500276::1697560552::1703173349::1::::<><>::
+pion_minus.png::CompressedTexture2D::8913910901363043254::1697560446::1703173349::1::::<><>::
+pion_plus.png::CompressedTexture2D::992982073593122911::1697560404::1703173349::1::::<><>::
+proton.png::CompressedTexture2D::3129282633002601073::1697560191::1703173349::1::::<><>::
+proton_anti.png::CompressedTexture2D::2889722075719327878::1697560198::1703173349::1::::<><>::
+sigma_minus.png::CompressedTexture2D::5176515994579376354::1697560146::1703173349::1::::<><>::
+sigma_minus_anti.png::CompressedTexture2D::8364873496046032850::1697560159::1703173349::1::::<><>::
+sigma_plus.png::CompressedTexture2D::7979665673343162544::1697560109::1703173349::1::::<><>::
+sigma_plus_anti.png::CompressedTexture2D::8134012714843681476::1697560135::1703173349::1::::<><>::
+::res://Textures/ParticlesAndLines/Lines/::1703173349
+Electroweak.png::CompressedTexture2D::2035836625652852944::1690240367::1703173349::1::::<><>::
+gluon_end.png::CompressedTexture2D::5187980049480432084::1690240365::1703173349::1::::<><>::
+higgs_dash.png::CompressedTexture2D::3169232439234878097::1690240362::1703173349::1::::<><>::
+loop.png::CompressedTexture2D::1775287723228843965::1690240359::1703173349::1::::<><>::
+Particle.png::CompressedTexture2D::6151415360307127696::1695682073::1703173349::1::::<><>::
+vision_line.png::CompressedTexture2D::739446890454326088::1694628037::1703173349::1::::<><>::
+::res://Textures/UI/::1703173349
+box_hover.png::CompressedTexture2D::3362798298816267746::1694884476::1703173349::1::::<><>::
+grid_outline.png::CompressedTexture2D::8658460169336567779::1689977176::1703173349::1::::<><>::
+info_box_border.png::CompressedTexture2D::4734928572902111399::1698149302::1703173349::1::::<><>::
+info_box_centre.png::CompressedTexture2D::6927194260093715041::1698149213::1703173349::1::::<><>::
+joint.png::CompressedTexture2D::5128586249441730187::1694884476::1703173349::1::::<><>::
+radio_checked.png::CompressedTexture2D::6694770762563620582::1697020091::1703173349::1::::<><>::
+radio_unchecked.png::CompressedTexture2D::3871644189823591266::1697020077::1703173349::1::::<><>::
+tooltip_panel.png::CompressedTexture2D::7237849060107582652::1693307383::1703173349::1::::<><>::
+::res://Textures/UI/ColourPicker/::1703173349
+colour_icon.png::CompressedTexture2D::7415024792142329989::1695899683::1703173349::1::::<><>::
+picker.png::CompressedTexture2D::1639816818279092616::1695899683::1703173349::1::::<><>::
+picker_bar.png::CompressedTexture2D::824863020550568668::1695899683::1703173349::1::::<><>::
+::res://Textures/UI/crosshair/::1703173349
+crosshair.png::CompressedTexture2D::9187493974100560162::1690033179::1703173349::1::::<><>::
+::res://Textures/UI/Equation/::1703173349
+boundary.png::CompressedTexture2D::8814563099659196728::1693226686::1703173349::1::::<><>::
+boundary_flipped.png::CompressedTexture2D::4634829911879165287::1693226686::1703173349::1::::<><>::
+equation_arrow.png::CompressedTexture2D::7468344373657452486::1693226686::1703173349::1::::<><>::
+plus.png::CompressedTexture2D::8996895984976810411::1693227529::1703173349::1::::<><>::
+scrollbar.png::CompressedTexture2D::5904936001948699686::1693229695::1703173349::1::::<><>::
+scrollbar_v.png::CompressedTexture2D::6553562819809213730::1695899683::1703173349::1::::<><>::
+scroll_grabber_highlight.png::CompressedTexture2D::3878247166635859605::1694195191::1703173349::1::::<><>::
+scroll_grabber_highlight_v.png::CompressedTexture2D::5206813092007651033::1695899683::1703173349::1::::<><>::
+scroll_grabber_normal.png::CompressedTexture2D::7058121456572808797::1694193045::1703173349::1::::<><>::
+scroll_grabber_normal_v.png::CompressedTexture2D::2538789154366606288::1695899683::1703173349::1::::<><>::
+scroll_grabber_pressed.png::CompressedTexture2D::6576519302084387678::1695572787::1703173349::1::::<><>::
+scroll_grabber_pressed_v.png::CompressedTexture2D::418930231270118441::1695899683::1703173349::1::::<><>::
+slash.png::CompressedTexture2D::8771330810717698769::1693844723::1703173349::1::::<><>::
+::res://Textures/UI/Information/::1703173349
+InfoBox.png::CompressedTexture2D::7038633258499803590::1690237289::1703173349::1::::<><>::
+informationTile.png::CompressedTexture2D::7862658360419988051::1690242329::1703173349::1::::<><>::
+InfoTabFocus.png::CompressedTexture2D::4468854694641794383::1690238630::1703173349::1::::<><>::
+InfoTabHover.png::CompressedTexture2D::3994286548191879126::1690238627::1703173349::1::::<><>::
+InfoTabNormal.png::CompressedTexture2D::8922488308380137219::1690238625::1703173349::1::::<><>::
+invalid.png::CompressedTexture2D::1367333924081182875::1695899683::1703173349::1::::<><>::
+valid.png::CompressedTexture2D::5822941359549725145::1695899683::1703173349::1::::<><>::
+::res://Textures/UI/Information/sliderH/::1703173349
+grabber.png::CompressedTexture2D::9174283061548392581::1697731397::1703173349::1::::<><>::
+grabber_highlighted.png::CompressedTexture2D::8081788132511941030::1697731222::1703173349::1::::<><>::
+slider.png::CompressedTexture2D::7526299242150025236::1697730972::1703173349::1::::<><>::
+tick.png::CompressedTexture2D::2017755683246320264::1697731588::1703173349::1::::<><>::
+::res://Textures/UI/MiniDiagram/::1703173349
+arrow_left.png::CompressedTexture2D::3286501774409695924::1693226686::1703173349::1::::<><>::
+arrow_right.png::CompressedTexture2D::4907694615580589227::1693226686::1703173349::1::::<><>::
+mini_interaction.png::CompressedTexture2D::8893428815122414716::1693226686::1703173349::1::::<><>::
+mini_interaction_dot.png::CompressedTexture2D::7863301818770054975::1693226686::1703173349::1::::<><>::
+mini_stateline.png::CompressedTexture2D::2126625912637225489::1698323188::1703173349::1::::<><>::
+mini_tile.png::CompressedTexture2D::4816394656073968360::1692464429::1703173349::1::::<><>::
+Outline.png::CompressedTexture2D::3328415434389654426::1692464429::1703173349::1::::<><>::
+::res://Textures/UI/ProblemSetSelector/::1703173349
+shaded_box.png::CompressedTexture2D::786401462568355289::1694796050::1703173349::1::::<><>::

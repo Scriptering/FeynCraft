@@ -1,0 +1,444 @@
+[gd_scene load_steps=44 format=3 uid="uid://blu0n6lwfysjf"]
+
+[ext_resource type="Material" uid="uid://b863l3lxgsu55" path="res://Resources/Shaders/palette_swap_material.tres" id="1_scc04"]
+[ext_resource type="Texture2D" uid="uid://c2myqhjupqo25" path="res://Textures/Background/tile.png" id="2_3tgej"]
+[ext_resource type="Script" path="res://Scenes and Scripts/UI/Menus/MainMenu/main_menu.gd" id="2_bknyf"]
+[ext_resource type="Texture2D" uid="uid://bvc8sakoqg037" path="res://Textures/Background/background_border.png" id="3_6hhsb"]
+[ext_resource type="Script" path="res://Scenes and Scripts/Diagram/diagram_actions.gd" id="5_3sh45"]
+[ext_resource type="PackedScene" uid="uid://bhi4xq3qdbt4d" path="res://Scenes and Scripts/Diagram/interaction.tscn" id="6_x1gwm"]
+[ext_resource type="PackedScene" uid="uid://b22nw60juoc6k" path="res://Scenes and Scripts/Diagram/line.tscn" id="7_ts01x"]
+[ext_resource type="Texture2D" uid="uid://dvmhtrrnuhqrj" path="res://Textures/UI/grid_outline.png" id="8_nsyxd"]
+[ext_resource type="PackedScene" uid="uid://dtllx04gp77mu" path="res://Scenes and Scripts/UI/Menus/MainMenu/problem_selection.tscn" id="8_oursg"]
+[ext_resource type="Texture2D" uid="uid://doyaei3vq3cbb" path="res://Textures/Background/state_line_shadow_top.png" id="9_182u3"]
+[ext_resource type="Texture2D" uid="uid://basekc2ce6rmp" path="res://Textures/Background/state_line_shadow_tile.png" id="10_v50i2"]
+[ext_resource type="PackedScene" uid="uid://pgnduadnvgfx" path="res://Scenes and Scripts/Diagram/StateLine.tscn" id="11_ed86s"]
+[ext_resource type="PackedScene" uid="uid://c4lyyfxwvqyfk" path="res://Scenes and Scripts/UI/Buttons/panelButton.tscn" id="11_t2od8"]
+[ext_resource type="PackedScene" uid="uid://besym8haj5qo4" path="res://Scenes and Scripts/UI/Crosshair.tscn" id="12_6wo74"]
+[ext_resource type="Shader" path="res://Resources/Shaders/palette_swap.gdshader" id="12_nridv"]
+[ext_resource type="Texture2D" uid="uid://7ipru72d5e13" path="res://Textures/Buttons/icons/sandbox.png" id="13_21fnr"]
+[ext_resource type="Texture2D" uid="uid://b20ltmcqk6xwh" path="res://Textures/Buttons/icons/question_mark.png" id="16_0rbva"]
+[ext_resource type="PackedScene" uid="uid://b4oiaq2nic3ig" path="res://Scenes and Scripts/UI/Buttons/MuteButton.tscn" id="16_1yq2b"]
+[ext_resource type="Texture2D" uid="uid://btu2jj1bbbbil" path="res://Textures/Buttons/icons/palette.png" id="17_cv4ds"]
+[ext_resource type="Texture2D" uid="uid://b3diapu0ec332" path="res://Textures/Buttons/icons/puzzle_piece.png" id="19_fbmws"]
+[ext_resource type="Texture2D" uid="uid://bxlc5rvpwjq8o" path="res://Textures/Buttons/icons/unmute.png" id="21_lu08p"]
+[ext_resource type="Theme" uid="uid://c7hk3afo5tria" path="res://Resources/Themes/toggle_button.tres" id="22_a8ikr"]
+[ext_resource type="Texture2D" uid="uid://co52c2vc04qom" path="res://Textures/Buttons/icons/credit.png" id="23_sgn8e"]
+[ext_resource type="PackedScene" uid="uid://ds2iet11sv3ty" path="res://Scenes and Scripts/UI/Buttons/particle_buttons.tscn" id="26_grnbf"]
+[ext_resource type="PackedScene" uid="uid://cv6hlxtiukmtc" path="res://Scenes and Scripts/UI/VisionButtons/vision_buttons.tscn" id="27_y0o8i"]
+[ext_resource type="PackedScene" uid="uid://nuajmillcsir" path="res://Scenes and Scripts/Algorithms/SolutionGeneration.tscn" id="28_4mci8"]
+[ext_resource type="PackedScene" uid="uid://byrhmsj4f7kxm" path="res://Scenes and Scripts/Algorithms/Vision.tscn" id="29_y3moh"]
+[ext_resource type="PackedScene" uid="uid://bs6vtukhlou2r" path="res://Scenes and Scripts/Algorithms/problem_generation.tscn" id="30_ki1p2"]
+[ext_resource type="PackedScene" uid="uid://wgw4km4uc7fh" path="res://Scenes and Scripts/UI/Menus/menu_tab.tscn" id="33_nabci"]
+[ext_resource type="Script" path="res://Scenes and Scripts/UI/ShaderControl.gd" id="34_pwybq"]
+[ext_resource type="PackedScene" uid="uid://dutuwg10y2hwq" path="res://Scenes and Scripts/UI/Menus/credits.tscn" id="36_o748n"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qgodk"]
+texture = ExtResource("8_nsyxd")
+texture_margin_left = 14.0
+texture_margin_top = 14.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+expand_margin_left = 1.0
+expand_margin_top = 1.0
+expand_margin_right = 1.0
+expand_margin_bottom = 1.0
+
+[sub_resource type="Theme" id="Theme_gyi6d"]
+Label/font_sizes/font_size = 16
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_s3k6c"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vatr2"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hpd06"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34f0o"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fmd6c"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hutae"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_i6of4"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1cc36"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ffd4u"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e5vrg"]
+resource_local_to_scene = true
+shader = ExtResource("12_nridv")
+
+[node name="MainMenu" type="Control"]
+material = ExtResource("1_scc04")
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_bknyf")
+
+[node name="Background" type="TextureRect" parent="."]
+use_parent_material = true
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 360.0
+mouse_filter = 2
+texture = ExtResource("2_3tgej")
+stretch_mode = 1
+
+[node name="GridOutline" type="NinePatchRect" parent="."]
+z_index = 10
+use_parent_material = true
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 360.0
+texture = ExtResource("3_6hhsb")
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+
+[node name="Diagram" type="Panel" parent="."]
+use_parent_material = true
+layout_mode = 0
+offset_left = 48.0
+offset_top = 32.0
+offset_right = 592.0
+offset_bottom = 192.0
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxTexture_qgodk")
+script = ExtResource("5_3sh45")
+grid_size = 16
+InteractionInstance = ExtResource("6_x1gwm")
+Line = ExtResource("7_ts01x")
+
+[node name="GridTiles" type="TextureRect" parent="Diagram"]
+z_index = -1
+use_parent_material = true
+layout_mode = 0
+offset_left = 16.0
+offset_right = 528.0
+offset_bottom = 160.0
+texture = ExtResource("2_3tgej")
+stretch_mode = 1
+
+[node name="DiagramArea" type="Control" parent="Diagram"]
+use_parent_material = true
+anchors_preset = 0
+offset_left = 64.0
+offset_right = 384.0
+offset_bottom = 130.0
+mouse_filter = 1
+
+[node name="InitialShadow" type="VBoxContainer" parent="Diagram/DiagramArea"]
+visible = false
+use_parent_material = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -212.0
+offset_top = 1.0
+offset_right = -204.0
+offset_bottom = 255.0
+grow_horizontal = 2
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Top" type="TextureRect" parent="Diagram/DiagramArea/InitialShadow"]
+use_parent_material = true
+layout_mode = 2
+texture = ExtResource("9_182u3")
+stretch_mode = 2
+
+[node name="Middle" type="TextureRect" parent="Diagram/DiagramArea/InitialShadow"]
+use_parent_material = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+mouse_filter = 2
+texture = ExtResource("10_v50i2")
+stretch_mode = 1
+
+[node name="Bottom" type="TextureRect" parent="Diagram/DiagramArea/InitialShadow"]
+use_parent_material = true
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("9_182u3")
+stretch_mode = 2
+flip_h = true
+flip_v = true
+
+[node name="FinalShadow" type="VBoxContainer" parent="Diagram/DiagramArea"]
+visible = false
+use_parent_material = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 156.0
+offset_top = 1.0
+offset_right = 164.0
+offset_bottom = 255.0
+grow_horizontal = 2
+mouse_filter = 2
+theme_override_constants/separation = 0
+
+[node name="Top" type="TextureRect" parent="Diagram/DiagramArea/FinalShadow"]
+use_parent_material = true
+layout_mode = 2
+texture = ExtResource("9_182u3")
+stretch_mode = 2
+
+[node name="Middle" type="TextureRect" parent="Diagram/DiagramArea/FinalShadow"]
+use_parent_material = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+mouse_filter = 2
+texture = ExtResource("10_v50i2")
+stretch_mode = 1
+
+[node name="Bottom" type="TextureRect" parent="Diagram/DiagramArea/FinalShadow"]
+use_parent_material = true
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("9_182u3")
+stretch_mode = 2
+flip_h = true
+flip_v = true
+
+[node name="Initial" parent="Diagram/DiagramArea" instance=ExtResource("11_ed86s")]
+visible = false
+use_parent_material = true
+layout_mode = 2
+offset_left = -48.0
+offset_top = -12.0
+offset_right = -48.0
+offset_bottom = 28.0
+
+[node name="Line" parent="Diagram/DiagramArea/Initial" index="0"]
+offset_bottom = 280.0
+
+[node name="Final" parent="Diagram/DiagramArea" node_paths=PackedStringArray("GrabAreas") instance=ExtResource("11_ed86s")]
+visible = false
+use_parent_material = true
+layout_mode = 2
+offset_left = 464.0
+offset_top = -12.0
+offset_right = 464.0
+offset_bottom = -12.0
+state = 1
+GrabAreas = [NodePath("Line/GrabTop"), NodePath("../Initial/Line/GrabBottom")]
+
+[node name="Line" parent="Diagram/DiagramArea/Final" index="0"]
+offset_bottom = 280.0
+
+[node name="ParticleLines" type="Control" parent="Diagram/DiagramArea"]
+use_parent_material = true
+anchors_preset = 0
+mouse_filter = 1
+
+[node name="Crosshair" parent="Diagram/DiagramArea" instance=ExtResource("12_6wo74")]
+use_parent_material = true
+position = Vector2(-160, -48)
+grid_margin = 0
+
+[node name="VisionLines" type="Control" parent="Diagram/DiagramArea"]
+use_parent_material = true
+anchors_preset = 0
+
+[node name="Interactions" type="Control" parent="Diagram/DiagramArea"]
+use_parent_material = true
+anchors_preset = 0
+mouse_filter = 1
+
+[node name="HadronJoints" type="Control" parent="Diagram/DiagramArea"]
+use_parent_material = true
+anchors_preset = 0
+
+[node name="Center" type="Control" parent="."]
+use_parent_material = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_top = 22.0
+offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_gyi6d")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Center"]
+use_parent_material = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -70.0
+offset_right = 70.0
+offset_bottom = 94.0
+grow_horizontal = 2
+alignment = 1
+
+[node name="Tutorial" parent="Center/VBoxContainer" instance=ExtResource("11_t2od8")]
+material = SubResource("ShaderMaterial_s3k6c")
+layout_mode = 2
+icon = ExtResource("16_0rbva")
+text = "Tutorial"
+minimum_size = Vector2(85, 2.08165e-12)
+icon_use_parent_material = true
+icon_text_seperation = 4
+
+[node name="Sandbox" parent="Center/VBoxContainer" instance=ExtResource("11_t2od8")]
+material = SubResource("ShaderMaterial_vatr2")
+layout_mode = 2
+icon = ExtResource("13_21fnr")
+text = "Sandbox"
+minimum_size = Vector2(103, 2.08165e-12)
+expand_icon = true
+action_mode = 1
+icon_text_seperation = 4
+
+[node name="ProblemSets" parent="Center/VBoxContainer" instance=ExtResource("11_t2od8")]
+material = SubResource("ShaderMaterial_hpd06")
+layout_mode = 2
+theme = ExtResource("22_a8ikr")
+icon = ExtResource("19_fbmws")
+text = "Problem Sets"
+minimum_size = Vector2(144, 0)
+toggle_mode = true
+expand_icon = true
+icon_use_parent_material = true
+icon_text_seperation = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Center/VBoxContainer"]
+use_parent_material = true
+layout_mode = 2
+alignment = 1
+
+[node name="MuteButton" parent="Center/VBoxContainer/HBoxContainer" instance=ExtResource("16_1yq2b")]
+material = SubResource("ShaderMaterial_34f0o")
+layout_mode = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+icon = ExtResource("21_lu08p")
+toggle_mode = true
+
+[node name="Palettes" parent="Center/VBoxContainer/HBoxContainer" instance=ExtResource("11_t2od8")]
+material = SubResource("ShaderMaterial_fmd6c")
+layout_mode = 2
+icon = ExtResource("17_cv4ds")
+minimum_size = Vector2(30, 30)
+toggle_mode = true
+expand_icon = true
+
+[node name="CreditButton" parent="Center/VBoxContainer/HBoxContainer" instance=ExtResource("11_t2od8")]
+material = SubResource("ShaderMaterial_hutae")
+layout_mode = 2
+icon = ExtResource("23_sgn8e")
+minimum_size = Vector2(30, 30)
+toggle_mode = true
+expand_icon = true
+icon_use_parent_material = true
+
+[node name="FloatingMenus" type="Control" parent="."]
+z_index = 1
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ProblemSelection" parent="FloatingMenus" instance=ExtResource("8_oursg")]
+visible = false
+layout_mode = 1
+offset_left = 172.0
+offset_top = 32.0
+offset_right = 467.0
+offset_bottom = 332.0
+
+[node name="Credits" parent="FloatingMenus" instance=ExtResource("36_o748n")]
+visible = false
+material = SubResource("ShaderMaterial_i6of4")
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 300.0
+offset_top = 160.0
+offset_right = 300.0
+offset_bottom = 160.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ParticleButtons" parent="." instance=ExtResource("26_grnbf")]
+visible = false
+material = SubResource("ShaderMaterial_1cc36")
+layout_mode = 1
+offset_left = -166.0
+offset_top = 508.0
+offset_right = -166.0
+offset_bottom = 508.0
+
+[node name="VisionButton" parent="." instance=ExtResource("27_y0o8i")]
+visible = false
+material = SubResource("ShaderMaterial_ffd4u")
+offset_left = 836.0
+offset_top = 4.0
+offset_right = 858.0
+offset_bottom = 64.0
+
+[node name="Algorithms" type="Node" parent="."]
+
+[node name="SolutionGeneration" parent="Algorithms" instance=ExtResource("28_4mci8")]
+
+[node name="PathFinding" parent="Algorithms" instance=ExtResource("29_y3moh")]
+
+[node name="ProblemGeneration" parent="Algorithms" instance=ExtResource("30_ki1p2")]
+
+[node name="MenuTab" parent="." instance=ExtResource("33_nabci")]
+visible = false
+material = SubResource("ShaderMaterial_e5vrg")
+layout_mode = 1
+offset_left = 509.0
+offset_top = 338.0
+offset_right = -131.0
+offset_bottom = -22.0
+
+[node name="ShaderControl" type="Node" parent="."]
+script = ExtResource("34_pwybq")
+
+[connection signal="mouse_entered" from="Diagram" to="Diagram" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Diagram" to="Diagram" method="_on_mouse_exited"]
+[connection signal="pressed" from="Center/VBoxContainer/Tutorial" to="." method="_on_tutorial_pressed"]
+[connection signal="pressed" from="Center/VBoxContainer/Sandbox" to="." method="_on_sandbox_pressed"]
+[connection signal="toggled" from="Center/VBoxContainer/ProblemSets" to="." method="_on_problem_sets_toggled"]
+[connection signal="toggled" from="Center/VBoxContainer/HBoxContainer/Palettes" to="." method="_on_palettes_toggled"]
+[connection signal="toggled" from="Center/VBoxContainer/HBoxContainer/CreditButton" to="." method="_on_credit_button_toggled"]
+[connection signal="closed" from="FloatingMenus/Credits" to="." method="_on_credits_closed"]
+
+[editable path="Diagram/DiagramArea/Initial"]
+[editable path="Diagram/DiagramArea/Final"]
+[editable path="Algorithms/SolutionGeneration"]
