@@ -15,7 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://n2w0tydjaa33" path="res://Textures/Buttons/cut_touch_button_pressed.png" id="13_gqnb4"]
 [ext_resource type="Script" path="res://Scenes and Scripts/fps.gd" id="14_jxbry"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_733sv"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_trasg"]
 resource_local_to_scene = true
 shader = ExtResource("2_6gvvu")
 
@@ -23,11 +23,11 @@ shader = ExtResource("2_6gvvu")
 resource_local_to_scene = true
 shader = ExtResource("2_6gvvu")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_xdjx2"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5r75r"]
 resource_local_to_scene = true
 shader = ExtResource("2_6gvvu")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_6uiq6"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ie85l"]
 resource_local_to_scene = true
 shader = ExtResource("2_6gvvu")
 
@@ -36,7 +36,7 @@ material = ExtResource("1_as5lx")
 script = ExtResource("1_f3b25")
 
 [node name="MainMenu" parent="." node_paths=PackedStringArray("PaletteMenu") instance=ExtResource("1_qkr4k")]
-material = SubResource("ShaderMaterial_733sv")
+material = SubResource("ShaderMaterial_trasg")
 offset_right = 640.0
 offset_bottom = 360.0
 PaletteMenu = NodePath("../FloatingMenus/PaletteMenu")
@@ -52,7 +52,7 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="PaletteMenu" parent="FloatingMenus" instance=ExtResource("5_yvg3b")]
-material = SubResource("ShaderMaterial_xdjx2")
+material = SubResource("ShaderMaterial_5r75r")
 layout_mode = 1
 offset_left = 318.0
 offset_top = 171.0
@@ -66,7 +66,7 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="ControlsTab" parent="PullOutTabs" instance=ExtResource("6_a8qlc")]
-material = SubResource("ShaderMaterial_6uiq6")
+material = SubResource("ShaderMaterial_ie85l")
 layout_mode = 1
 offset_left = 4.0
 offset_top = -54.0
