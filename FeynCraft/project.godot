@@ -18,7 +18,7 @@ boot_splash/bg_color=Color(0.254902, 0.25098, 0.258824, 1)
 boot_splash/image="res://Textures/splash_icon.png"
 boot_splash/fullsize=false
 boot_splash/use_filter=false
-config/icon="res://icon.png"
+config/icon="res://Textures/game_icon.png"
 config/macos_native_icon="res://Textures/game_icon.icns"
 config/windows_native_icon="res://Textures/game_icon.ico"
 
